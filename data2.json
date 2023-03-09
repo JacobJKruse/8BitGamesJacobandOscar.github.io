@@ -511,19 +511,22 @@
               "ID": "REV_1",
               "NAME": "Link",
               "DATE": 2021,
-              "REVIEW": "8-Bit Shop has some of the most popular games for the best price"
+              "REVIEW": "8-Bit Shop has some of the most popular games for the best price",
+              "IMG": "./myotherimages/linktoy.jpg"
             },
             {
               "ID": "REV_2",
               "NAME": "Wario",
               "DATE": 2023,
-              "REVIEW": "8-Bit Shop is a rip off, as a penny pincher I was expecting games to be free."
+              "REVIEW": "8-Bit Shop is a rip off, as a penny pincher I was expecting games to be free.",
+              "IMG": "./myotherimages/warioProfile.jpg"
             },
             {
               "ID": "REV_3",
               "NAME": "Pikachu",
               "DATE": 2020,
-              "REVIEW": "Pika-pik Pika Pika Pikachu."
+              "REVIEW": "Pika-pik Pika Pika Pikachu.",
+              "IMG": "./myotherimages/pikaProfile.jpg"
             }
             ]
 

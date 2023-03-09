@@ -160,7 +160,7 @@
                 <h1 style="color: white; font-weight: bold;">Save the day.</h1>
                 <p style="color: white; font-weight: bold;">Explore open world retro games that take you on long
                   journeys.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Shop Now</a></p>
+                <p><a class="btn btn-lg btn-primary" id="button2" href="#">Shop Now</a></p>
               </div>
             </div>
           </div>
@@ -183,64 +183,45 @@
       <div class="container marketing">
         <script type="text/javascript">
           fetch('data2.json')
-.then(function (response) {
-  return response.json();
-})
-.then(function (data) {
-  getReviews(data);
-})
-.catch(function (err) {
-  console.log('error:' + err);
-})
+            .then(function (response) {
+              return response.json();
+            })
+            .then(function (data) {
+              getReviews(data);
+            })
+            .catch(function (err) {
+              console.log('error:' + err);
+            })
 
-function getReviews(data) {
-let mainContainer = document.getElementById("myData");
-let div = document.createElement("h2");
-div.innerHTML = `  ${data.REVIEWS.MAIN[0].NAME} `;
-mainContainer.appendChild(div);
+          function getReviews(data) {
+            let mainContainer = document.getElementById("myData");
+            let div = document.createElement("div");
+            div.innerHTML = ` <h2><img class="bd-placeholder-img rounded-circle"width="140" height="140" src=${data.REVIEWS.MAIN[0].IMG} ><br> ${data.REVIEWS.MAIN[0].NAME} <br> </h2> <p>${data.REVIEWS.MAIN[0].REVIEW} <br> -${data.REVIEWS.MAIN[0].DATE}</p> `;
+            mainContainer.appendChild(div);
+            let mainContainer2 = document.getElementById("myData2");
+            let div2 = document.createElement("div");
+            div2.innerHTML = `<h2><img class="bd-placeholder-img rounded-circle" src=${data.REVIEWS.MAIN[1].IMG} width="140" height="140"> <br> ${data.REVIEWS.MAIN[1].NAME}</h2><p>${data.REVIEWS.MAIN[1].REVIEW} <br> -${data.REVIEWS.MAIN[1].DATE}</p>`;
+            mainContainer2.appendChild(div2);
+            let mainContainer3 = document.getElementById("myData3");
+            let div3 = document.createElement("div");
+            div3.innerHTML = `<h2><img class="bd-placeholder-img rounded-circle" src=${data.REVIEWS.MAIN[2].IMG} width="140" height="140"><br>  ${data.REVIEWS.MAIN[2].NAME}</h2><p>${data.REVIEWS.MAIN[2].REVIEW}  <br> -${data.REVIEWS.MAIN[2].DATE}</p>`;
+            mainContainer3.appendChild(div3);
 
-let mainContainer6 = document.getElementById("myData6");
-let div6 = document.createElement('p');
-div6.innerHTML = `  ${data.REVIEWS.MAIN[0].REVIEW} <br> -${data.REVIEWS.MAIN[0].DATE}`;
-mainContainer6.appendChild(div6);
+            let mainContainerAd1 = document.getElementById("AD1");
+            let divAD1 = document.createElement('h1');
+            divAD1.innerHTML = `  ${data.ADS.MAIN[0].TITLE}`;
 
-
-let mainContainer2 = document.getElementById("myData2");
-let div2 = document.createElement("h2");
-div2.innerHTML = `  ${data.REVIEWS.MAIN[1].NAME}`;
-mainContainer2.appendChild(div2);
-
-let mainContainer5 = document.getElementById("myData5");
-let div5 = document.createElement('p');
-div5.innerHTML = `  ${data.REVIEWS.MAIN[1].REVIEW} <br> -${data.REVIEWS.MAIN[1].DATE}`;
-mainContainer5.appendChild(div5);
-
-let mainContainer3 = document.getElementById("myData3");
-let div3 = document.createElement("h2");
-div3 = document.createElement("h2");
-div3.innerHTML = `  ${data.REVIEWS.MAIN[2].NAME}`;
-mainContainer3.appendChild(div3);
-
-let mainContainer4 = document.getElementById("myData4");
-let div4 = document.createElement('p');
-div4.innerHTML = `  ${data.REVIEWS.MAIN[2].REVIEW}  <br> -${data.REVIEWS.MAIN[2].DATE}`;
-mainContainer4.appendChild(div4);
-
-let mainContainerAd1 = document.getElementById("AD1");
-let divAD1 = document.createElement('h1');
-divAD1.innerHTML = `  ${data.ADS.MAIN[0].TITLE}`;
-
-mainContainerAd1.appendChild(divAD1);
-}
+            mainContainerAd1.appendChild(divAD1);
+          }
         </script>
-          
-       
+
+
         <!-- Three columns of text below the carousel -->
-        
+
 
         <!-- START THE FEATURETTES -->
 
-        
+
 
         <div class="row featurette">
           <div class="col-md-7">
@@ -301,26 +282,21 @@ mainContainerAd1.appendChild(divAD1);
 
         <div class="row">
           <h1 style="text-align: center; margin-bottom: 50px;">Reviews</h1>
-          
-        
-           <div class="col-lg-4">
-            <img class="bd-placeholder-img rounded-circle"width="140" height="140" src="myotherimages/linktoy.jpg" >
-        <h2 class="fw-normal" id="myData"></h2>
-        <p id = "myData6"></p>
-        
-      </div> 
-      <div class="col-lg-4">
-        <img class="bd-placeholder-img rounded-circle" src="./myotherimages/nintendo-amiibo-wario.jpg" width="140" height="140"  role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
-        <h2 class="fw-normal" id="myData2"></h2>
-        <p id="myData5"></p>
-        
-      </div>  
-      <div class="col-lg-4">
-        <img class="bd-placeholder-img rounded-circle" src="./myotherimages/pokemonplush.jpg" width="140" height="140"  role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
-        <h2 class="fw-normal" id="myData3"></h2>
-        <p id="myData4"></p>
-        
-      </div>
+
+
+          <div class="col-lg-4">
+            <div class="fw-normal" id="myData"></div>
+
+          </div>
+          <div class="col-lg-4">
+
+            <div class="fw-normal" id="myData2"></div>
+
+
+          </div>
+          <div class="col-lg-4">
+            <div class="fw-normal" id="myData3"></div>
+          </div>
         </div><!-- /.row -->
 
         <!-- /END THE FEATURETTES -->
@@ -331,7 +307,8 @@ mainContainerAd1.appendChild(divAD1);
       <!-- FOOTER -->
       <footer class="container">
         <p class="float-end"><a href="#">Back to top</a></p>
-        <p>&copy; 2017–2023 *-Bit Shop. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a>&middot; <a href="#">1-800-BITS</a> </p>
+        <p>&copy; 2017–2023 *-Bit Shop. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a>&middot; <a
+            href="#">1-800-BITS</a> </p>
       </footer>
   </main>
 
