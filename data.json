@@ -502,25 +502,5 @@
    "PRODUCT_DESC": "Mario Kart 7 offers 32 different race tracks, which consist of 16 new tracks and 16 tracks remade from prior Mario Kart games. Mario Kart 7 features four single-player game modes: Grand Prix, Time Trial, Balloon Battle, and Coin Runners. Some modes feature multiplayer options.",
    "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/2/2a/Mario_Kart_7_box_art.jpg"
  }
-],
-  "REVIEWS": [
-    {
-      "ID": "REV_1",
-      "NAME": "Link",
-      "DATE": 2021,
-      "REVIEW": "8-Bit Shop has some of the most popular games for the best price"
-    },
-    {
-      "ID": "REV_2",
-      "NAME": "Wario",
-      "DATE": 2023,
-      "REVIEW": "8-Bit Shop is a rip off, as a penny pincher I was expecting games to be free."
-    },
-    {
-      "ID": "REV_3",
-      "NAME": "Pikachu",
-      "DATE": 2020,
-      "REVIEW": "Pika-pik Pika Pika Pikachu."
-    }
-    ]
+]
   }
