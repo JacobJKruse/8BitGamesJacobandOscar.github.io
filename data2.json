@@ -1,0 +1,534 @@
+{
+    "GAMES":{
+        "NES" : [
+            {
+              "ID": "NES_1",
+              "PRODUCT_NAME": "Duck Hunt",
+              "PRODUCT_RELEASE_DATE": 1994,
+              "PRICE": "$15",
+              "RATING": 80,
+              "PRODUCT_DESC": "Duck Hunt is a shooter game in which the objective is to shoot moving targets on the screen in mid-flight. The game is played from a first-person perspective and requires the NES Zapper light gun, which the player aims and fires at the screen.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/1/14/DuckHuntBox.jpg"
+            },
+            {
+              "ID": "NES_2",
+              "PRODUCT_NAME": "Super Mario  Bros",
+              "PRODUCT_RELEASE_DATE": 1985,
+              "PRICE": "$30",
+              "RATING": 84,
+              "PRODUCT_DESC": "In Super Mario Bros., The objective is to race through the Mushroom Kingdom, survive the main antagonist Bowser's forces, and save Princess Toadstool.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png"
+            },
+            {
+              "ID": "NES_3",
+              "PRODUCT_NAME": "Tetris",
+              "PRODUCT_RELEASE_DATE": 1989,
+              "PRICE": "$20",
+              "RATING": 85,
+              "PRODUCT_DESC": "Tetris  is a puzzle game developed by Atari Games and originally released for arcades in 1988. players must stack differently shaped falling blocks to form and eliminate horizontal lines from the playing field.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/7/7d/Tetris_NES_cover_art.jpg"
+            },
+            {
+              "ID": "NES_4",
+              "PRODUCT_NAME": "The Legend of Zelda",
+              "PRODUCT_RELEASE_DATE": 1987,
+              "PRICE": "$50",
+              "RATING": 84,
+              "PRODUCT_DESC": "The Legend of Zelda  is a action-adventure  game  that centers on a boy named Link, who aims to collect the eight fragments of the Triforce in order to rescue Princess Zelda from the antagonist Ganon.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png"
+            },
+            {
+              "ID": "NES_5",
+              "PRODUCT_NAME": "Punch-Out!!",
+              "PRODUCT_RELEASE_DATE": 1987,
+              "PRICE": "$40",
+              "RATING": 86,
+              "PRODUCT_DESC": "Punch-Out!! features Little Mac, a young boxer fighting his way up through ranks of the World Video Boxing Association.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/3/3d/Punch-out_mrdream_boxart.PNG"
+            },
+            {
+              "ID": "NES_6",
+              "PRODUCT_NAME": "Metroid",
+              "PRODUCT_RELEASE_DATE": 1987,
+              "PRICE": "$25",
+              "RATING": 58,
+              "PRODUCT_DESC": "Metroid is an action-adventure game in which the player controls Samus Aran as she travels through caverns and hunts Space Pirates.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/5/5d/Metroid_boxart.jpg"
+            }
+           ],
+           "SNES" : [
+            {
+              "ID": "SNES_1",
+              "PRODUCT_NAME": "Super Mario World",
+              "PRODUCT_RELEASE_DATE": 1991,
+              "PRICE": "$25",
+              "RATING": 92,
+              "PRODUCT_DESC": "Super Mario World, known as Super Mario World: Super Mario Bros. 4 is a platform video game developed and published by Nintendo for the Super Nintendo Entertainment System (SNES).",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png"
+            },
+            {
+              "ID": "SNES_2",
+              "PRODUCT_NAME": "EarthBound",
+              "PRODUCT_RELEASE_DATE": 1994,
+              "PRICE": "$70",
+              "RATING": 82,
+              "PRODUCT_DESC": "EarthBound chronicles the adventures of Ness, a 13-year-old boy who journeys around the world using his \"PK\" or \"PSI\" to collect eight melodies in order to save the future from an alien of pure evil, intending to sentence all of reality to the horror of eternal darkness.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/1/1f/EarthBound_Box.jpg"
+            },
+            {
+              "ID": "SNES_3",
+              "PRODUCT_NAME": "Mortal Kombat II",
+              "PRODUCT_RELEASE_DATE": 1993,
+              "PRICE": "$60",
+              "RATING": 75,
+              "PRODUCT_DESC": "Following his failure to defeat Liu Kang in the previous Mortal Kombat tournament, the evil Shang Tsung begs his master Shao Kahn, supreme ruler of Outworld and the surrounding kingdoms, to spare his life. He tells Shao Kahn that if they hold the next Mortal Kombat Tournament in Outworld, the Earthrealm warriors must travel away from home to attend.",
+              "IMG_LINK": "https://i.etsystatic.com/25689291/r/il/cacc70/3851653439/il_570xN.3851653439_emv9.jpg "
+            },
+            {
+              "ID": "SNES_4",
+              "PRODUCT_NAME": "Star Fox",
+              "PRODUCT_RELEASE_DATE": 1993,
+              "PRICE": "$60",
+              "RATING": 80,
+              "PRODUCT_DESC": "The first game in the Star Fox series, the story follows Fox McCloud and the rest of the Star Fox team defending their homeworld of Corneria against the invading forces of Andross.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/5/52/Star_Fox_SNES.jpg"
+            },
+            {
+              "ID": "SNES_5",
+              "PRODUCT_NAME": "Donky Kong Country",
+              "PRODUCT_RELEASE_DATE": 1994,
+              "PRICE": "$60",
+              "RATING": 84,
+              "PRODUCT_DESC": "It is a reboot of Nintendo's Donkey Kong franchise and follows the gorilla Donkey Kong and his nephew Diddy Kong as they set out to recover their stolen banana hoard from the crocodile King K.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/1/1a/Donkey_Kong_Country_SNES_cover.pngy"
+            },
+            {
+              "ID": "SNES_6",
+              "PRODUCT_NAME": "Super Mario World 2 Yoshi's Island",
+              "PRODUCT_RELEASE_DATE": 1995,
+              "PRICE": "$60",
+              "RATING": 79,
+              "PRODUCT_DESC": "Yoshi's Island is a 1995 platform game developed and published by Nintendo for the Super Nintendo Entertainment System (SNES). The player controls Yoshi, a friendly dinosaur, on a quest to reunite baby Mario with his brother Luigi, who has been kidnapped by Kamek.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/9/9a/Yoshi%27s_Island_%28Super_Mario_World_2%29_box_art.jpg"
+            }
+           ],
+           "N64" : [
+            {
+              "ID": "N64_1",
+              "PRODUCT_NAME": "Super Mario 64",
+              "PRODUCT_RELEASE_DATE": 1996,
+              "PRICE": "$60",
+              "RATING": 92,
+              "PRODUCT_DESC": "Super Mario 64 is a 3D platformer in which the player controls Mario through various courses. Mario's abilities are far more diverse than in previous games. He can walk, run, jump, crouch, crawl, climb, swim, kick, grab objects, and punch using the game controller's analog stick and buttons.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/6/6a/Super_Mario_64_box_cover.jpg"
+            },
+            {
+              "ID": "N64_2",
+              "PRODUCT_NAME": "Super Smash Bros.",
+              "PRODUCT_RELEASE_DATE": 1999,
+              "PRICE": "$60",
+              "RATING": 90,
+              "PRODUCT_DESC": "Super Smash Brospits Nintendo's biggest stars against each other in an all-out slugfest. Delivering fast-paced fighting action which is easy to learn and tough to master, this game features new moves, never-before seen battle arenas, and a fresh arsenal of special items.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/4/42/Supersmashbox.jpg"
+            },
+            {
+              "ID": "N64_3",
+              "PRODUCT_NAME": "Pokémon Stadium",
+              "PRODUCT_RELEASE_DATE": 1999,
+              "PRICE": "$60",
+              "RATING": 87,
+              "PRODUCT_DESC": "Pokémon Stadium gives trainers an arena to engage in heated Pokémon battles, and offers them a ringside seat for the action.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/7/70/Pokemonstadiumbox.jpg"
+            },
+            {
+              "ID": "N64_4",
+              "PRODUCT_NAME": "The Legend of Zelda: Ocarina of Time",
+              "PRODUCT_RELEASE_DATE": 1998,
+              "PRICE": "$60",
+              "RATING": 88,
+              "PRODUCT_DESC": "The Legend of Zelda: Ocarina of Time is a fantasy action-adventure game set in an expansive environment. The player controls series protagonist Link from a third-person perspective in a three-dimensional world.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg"
+            },
+            {
+              "ID": "N64_5",
+              "PRODUCT_NAME": "GoldenEye 007",
+              "PRODUCT_RELEASE_DATE": 1999,
+              "PRICE": "$60",
+              "RATING": 78,
+              "PRODUCT_DESC": "GoldenEye 007 is a first-person shooter where the player takes the role of Secret Intelligence Service agent James Bond through a series of levels. In each level, the player must complete a set of objectives while computer-controlled opponents try to hinder the player's progress.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/3/36/GoldenEye007box.jpg"
+            },
+            {
+              "ID": "N64_6",
+              "PRODUCT_NAME": "Mario Party",
+              "PRODUCT_RELEASE_DATE": 1998,
+              "PRICE": "$60",
+              "RATING": 77,
+              "PRODUCT_DESC": "Mario Party is a party video game series featuring characters from the Mario franchise in which up to four local players or computer-controlled characters (called \"CPUs\") compete in a board game interspersed with minigames.",
+              "IMG_LINK": "https://mario.wiki.gallery/images/thumb/1/1f/MP1_Cover.png/1200px-MP1_Cover.png"
+            }
+           ],
+           "GC" : [
+            {
+              "ID": "GC_1",
+              "PRODUCT_NAME": "Super Smash Bros. Melee",
+              "PRODUCT_RELEASE_DATE": 2001,
+              "PRICE": "$60",
+              "RATING": 92,
+              "PRODUCT_DESC": "Super Smash Bros. Melee is a more simplistic fighting game that features characters from Nintendo video game franchises such as Mario, The Legend of Zelda, Star Fox and Pokémon, and Donkey Kong among other",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png"
+            },
+            {
+              "ID": "GC_2",
+              "PRODUCT_NAME": "The Legend of  Zelda: The Wind Waker",
+              "PRODUCT_RELEASE_DATE": 2002,
+              "PRICE": "$60",
+              "RATING": 96,
+              "PRODUCT_DESC": "The player controls series protagonist Link as he attempts to save his sister from the sorcerer Ganondorf and becomes embroiled in a struggle for the Triforce. Travel the flooded world of Hyrule as you travel by boat from island to island and stop evil. ",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg"
+            },
+            {
+              "ID": "GC_3",
+              "PRODUCT_NAME": "Super Monkey Ball",
+              "PRODUCT_RELEASE_DATE": 2002,
+              "PRICE": "$60",
+              "RATING": 87,
+              "PRODUCT_DESC": "In Super Monkey Ball the objective of the main game is to guide one of four playable monkeys  encased in a transparent ball across a suspended series of platforms and through a goal.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/9/96/Super_Monkey_Ball_Coverart.png"
+            },
+            {
+              "ID": "GC_4",
+              "PRODUCT_NAME": "Resident Evil 4",
+              "PRODUCT_RELEASE_DATE": 2005,
+              "PRICE": "$60",
+              "RATING": 96,
+              "PRODUCT_DESC": "Players control special agent Leon S. Kennedy who is on a mission to rescue the US president's daughter, Ashley Graham, who has been kidnapped by a cult in rural Spain.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/d/d9/Resi4-gc-cover.jpg"
+            },
+            {
+              "ID": "GC_5",
+              "PRODUCT_NAME": "Metroid Prime",
+              "PRODUCT_RELEASE_DATE": 2002,
+              "PRICE": "$60",
+              "RATING": 97,
+              "PRODUCT_DESC": "Players control the bounty hunter Samus Aran as she battles the Space Pirates and their biological experiments on the planet Tallon IV.  You control Samus from a first-person view unlike previous games in the series.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg"
+            },
+            {
+              "ID": "GC_6",
+              "PRODUCT_NAME": "Mario Kart: Double Dash",
+              "PRODUCT_RELEASE_DATE": 2003,
+              "PRICE": "$60",
+              "RATING": 87,
+              "PRODUCT_DESC": "Double Dash is a kart racing video game in which the player races in a kart against other teams in different courses. This is the only game in the series in which instead of one character per kart, there are two: one to drive, and one to use items.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/7/78/Mario_Kart_Double_Dash.jpg"
+            }
+           ],
+           "WII" : [
+            {
+              "ID": "WII_1",
+              "PRODUCT_NAME": "Mario Kart Wii",
+              "PRODUCT_RELEASE_DATE": 2008,
+              "PRICE": "$60",
+              "RATING": 82,
+              "PRODUCT_DESC": "Mario Kart Wii incorporates playable characters from the Mario series, who participate in races on 32 different race tracks using specialized items to hinder opponents or gain advantages.Mario Kart Wii uses the Wii Remote's motion-controls to provide intuitive and conventional steering controls.",
+              "IMG_LINK": "https://th.bing.com/th/id/OIP.YCiWJE0gqdCNOJgLr7FpqwHaKY?pid=ImgDet&rs=1"
+            },
+            {
+              "ID": "WII_2",
+              "PRODUCT_NAME": "Wii Sports",
+              "PRODUCT_RELEASE_DATE": 2006,
+              "PRICE": "$60",
+              "RATING": 76,
+              "PRODUCT_DESC": "Wii Sports is a 2006 sports simulation video game developed and published by Nintendo for the Wii video game console.You can play Tennis, Baseball,  Boxing, Golf, and  Bowling using  motion controls. ",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/e/e0/Wii_Sports_Europe.jpg"
+            },
+            {
+              "ID": "WII_3",
+              "PRODUCT_NAME": "Wii Play ",
+              "PRODUCT_RELEASE_DATE": 2007,
+              "PRICE": "$60",
+              "RATING": 58,
+              "PRODUCT_DESC": "Wii Play features 9 minigames that use special features of the Wii Remote. Includes a tank game, a shooting game in the spirt of duck hunt, fishing, ping pong, and billiards.  ",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/9/9f/Wii_Play_Europe.jpg"
+            },
+            {
+              "ID": "WII_4",
+              "PRODUCT_NAME": "Super Mario Galaxy",
+              "PRODUCT_RELEASE_DATE": 2007,
+              "PRICE": "$60",
+              "RATING": 97,
+              "PRODUCT_DESC": "Super Mario Galaxy is set in outer space, where Mario travels through different galaxies to collect Power Stars. Galaxies consist of planitoids that have their own gravity, allowing Mario to walk  on walls, upside down, and jump  between gravitational forces. ",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/7/76/SuperMarioGalaxy.jpg"
+            },
+            {
+              "ID": "WII_5",
+              "PRODUCT_NAME": "Super Smash Bros. Brawl",
+              "PRODUCT_RELEASE_DATE": 2008,
+              "PRICE": "$60",
+              "RATING": 93,
+              "PRODUCT_DESC": "Super Smash Bros. Brawl is a more simplistic fighting game that features characters from Nintendo video game franchises. It has a larger roster of characters than its predecessor and contains some third party characters. ",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/f/f3/SSBB_Cover.jpg"
+            },
+            {
+              "ID": "WII_6",
+              "PRODUCT_NAME": "The Legend of Zelda: Skyward Sword",
+              "PRODUCT_RELEASE_DATE": 2011,
+              "PRICE": "$60",
+              "RATING": 81,
+              "PRODUCT_DESC": "The player controls series protagonist Link as he travels from floating islands in the sky to overworlds and dungeons in the land below. Link must stop the resurection of  the demon lord Demise. Link is controlled using the Wii Remote and Nunchuck and  requires  the Wii MotionPlus extention. ",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/9/99/Legend_of_Zelda_Skyward_Sword_boxart.png"
+            }
+           ],
+           "GB" : [
+            {
+              "ID": "GB_1",
+              "PRODUCT_NAME": "Pokémon Red Version",
+              "PRODUCT_RELEASE_DATE": 1996,
+              "PRICE": "$35",
+              "RATING": 85,
+              "PRODUCT_DESC": "Pokémon Red Version is a role-playing game developed by Game Freak where the player travels the fictional world of Kanto catching, trading, and  battling mosters called Pokémon. Your goal is to catch every Pokémon, defeat the evil Team Rocket, and become the Pokémon Champion by beating Gym Leaders and the Elite Four in  Pokémon battles. ",
+              "IMG_LINK": "https://i.pinimg.com/736x/9b/42/0b/9b420bea8ee23b2d0be2d0cb6bb813b7.jpg"
+            },
+            {
+              "ID": "GB_2",
+              "PRODUCT_NAME": "Wario Land II",
+              "PRODUCT_RELEASE_DATE": 1998,
+              "PRICE": "$35",
+              "RATING": 80,
+              "PRODUCT_DESC": "Wario's Castle is destoryed and his treasure stolen by his nemesis Captian Syrup. Wario gives chase to Captian Syrup across the land  to get his treasure back.",
+              "IMG_LINK": "https://i.pinimg.com/736x/67/7f/90/677f90396aa55f30ea2de0116cf292e5.jpg"
+            },
+            {
+              "ID": "GB_3",
+              "PRODUCT_NAME": "Kirby's Dream Land",
+              "PRODUCT_RELEASE_DATE": 1992,
+              "PRICE": "$35",
+              "RATING": 74,
+              "PRODUCT_DESC": "Kirby's Dream Land is a side-scrolling platforming game where players play as the small little creature named Kirby. Use Kirby's abilities to float and inhale enemies and  spit them back out as projectiles as you get the magical Sparkling Stars back from the glutonus King Dedede.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/8/83/Kdl1ussmall.jpg"
+            },
+            {
+              "ID": "GB_4",
+              "PRODUCT_NAME": "The Legend of Zelda: Link's Awakening",
+              "PRODUCT_RELEASE_DATE": 1993,
+              "PRICE": "$35",
+              "RATING": 85,
+              "PRODUCT_DESC": "Assuming the role of Link, the player fights monsters and solves puzzles while searching for eight musical instruments that will awaken the sleeping Wind Fish and allow him to escape from the island.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/c/c1/Link%27s_Awakening.png"
+            },
+            {
+              "ID": "GB_5",
+              "PRODUCT_NAME": "Super Mario Land 2",
+              "PRODUCT_RELEASE_DATE": 1992,
+              "PRICE": "$35",
+              "RATING": 87,
+              "PRODUCT_DESC": "While Mario was away in Sarasaland, a jealous childhood acquaintance named Wario puts an evil spell over Mario's private island and takes over Mario's castle.  mariomust collect 6 golden coins to regain entrace to his caslte and take it back. ",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/0/0d/Super_Mario_Land_2_box_art.jpg"
+            },
+            {
+              "ID": "GB_6",
+              "PRODUCT_NAME": "Donkey Kong",
+              "PRODUCT_RELEASE_DATE": 1994,
+              "PRICE": "$35",
+              "RATING": 85,
+              "PRODUCT_DESC": "Rescue Pauline from Donkey Kong in the four original levels from the aracde verion. Then give chase to Donkey Koing across 97 new levels with  new mechanics for an ultimate showdown.  ",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/2/23/Donkey_Kong_94_box_art.jpg"
+            }
+           ],
+           "GBA" : [
+            {
+              "ID": "GBA_1",
+              "PRODUCT_NAME": "Mario & Luigi: Superstar Saga",
+              "PRODUCT_RELEASE_DATE": 2003,
+              "PRICE": "$45",
+              "RATING": 90,
+              "PRODUCT_DESC": "In the game, Mario and Luigi travel to the Beanbean Kingdom in order to combat Cackletta and Fawful, who stole Princess Peach's voice for the purpose of harnessing the power of a special artifact called the Beanstar. This game is the third role-playing game in the Mario franchise after Super Mario RPG and Paper Mario.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg"
+            },
+            {
+              "ID": "GBA_2",
+              "PRODUCT_NAME": "Pokemon Ruby and Sapphire",
+              "PRODUCT_RELEASE_DATE": 2002,
+              "PRICE": "$45",
+              "RATING": 83,
+              "PRODUCT_DESC": "The story follows the player as they defeat Teams Aqua and Team Magma, crime groups who want to use Pokémon to change the weather in Hoenn. In Ruby, Team Magma, want to use the legendary Pokémon Groudon to dry up the oceans of Hoenn and increase the amount of land; in Sapphire, the Team Aqua are the villains and they try to Kyogre, to increase the Hoenn's water levels. ",
+              "IMG_LINK": "https://m.media-amazon.com/images/I/618K8K3FZGL.jpg https://m.media-amazon.com/images/I/61RDD36KWPL.jpg "
+            },
+            {
+              "ID": "GBA_3",
+              "PRODUCT_NAME": "The Legend of Zelda: The Minish Cap",
+              "PRODUCT_RELEASE_DATE": 2004,
+              "PRICE": "$45",
+              "RATING": 89,
+              "PRODUCT_DESC": "The titular \"Minish cap\" refers to a new ability that allows Link to transform into \"Minish size\" using portals throughout the world. Link's smaller size changes his ability to traverse his environments. For instance, a small portal inaccessible to Link in his normal size can be used by Minish-sized Link.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/a/a5/The_Legend_of_Zelda_The_Minish_Cap_Game_Cover.JPG"
+            },
+            {
+              "ID": "GBA_4",
+              "PRODUCT_NAME": "Metroid Fusion",
+              "PRODUCT_RELEASE_DATE": 2002,
+              "PRICE": "$45",
+              "RATING": 92,
+              "PRODUCT_DESC": "Metroid Fusion is an action-adventure game in which the player controls Samus Aran. Like previous games in the series, Fusion is set in a large open-ended world with elevators that connect regions, which each in turn contains rooms separated by doors.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/4/45/Metroid_Fusion_box.jpg"
+            },
+            {
+              "ID": "GBA_5",
+              "PRODUCT_NAME": "Mario Kart: Supper Circut",
+              "PRODUCT_RELEASE_DATE": 2001,
+              "PRICE": "$45",
+              "RATING": 93,
+              "PRODUCT_DESC": "Mario Kart: Super Circuit is a kart racing game featuring characters and elements from the Mario franchise. The player controls one of eight Mario characters and races opponents in karts around tracks themed around locales from the Super Mario platform games.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/9/90/Super_Circuit.jpg"
+            },
+            {
+              "ID": "GBA_6",
+              "PRODUCT_NAME": "Sonic Advance",
+              "PRODUCT_RELEASE_DATE": 2001,
+              "PRICE": "$45",
+              "RATING": 87,
+              "PRODUCT_DESC": "Sonic Advance is a side-scrolling platform game reminiscent of the original Sonic the Hedgehog games released for the Sega Genesis. Players journey through an island to defeat Doctor Eggman, who is attempting to capture its animal population to turn them into evil robots.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/a/ab/Sonic_Advance_US_cover.jpg"
+            }
+           ],
+           "DS" : [
+            {
+              "ID": "DS_1",
+              "PRODUCT_NAME": "Mario Kart DS",
+              "PRODUCT_RELEASE_DATE": 2005,
+              "PRICE": "$40",
+              "RATING": 91,
+              "PRODUCT_DESC": "Mario Kart DS is a racing game in which the player races in a kart against other racers. While racing or battling, the Nintendo DS's top screen offers a third-person perspective of the player's kart, while the bottom touchscreen shows the race's current standings, items carried by each racer, and a map of the course. ",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Mario_Kart_DS_cover.jpg/330px-Mario_Kart_DS_cover.jpg"
+            },
+            {
+              "ID": "DS_2",
+              "PRODUCT_NAME": "Mario & Luigi: Bowser's Inside Story",
+              "PRODUCT_RELEASE_DATE": 2009,
+              "PRICE": "$40",
+              "RATING": 90,
+              "PRODUCT_DESC": "Mario and Luigi have been inhaled into the body of their long-time nemesis, Bowser. The Mario brothers learn to help Bowser, who is unaware of their presence inside his body, to combat their mutual enemy Fawful, who has taken over the Mushroom Kingdom.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/6/69/Mario_%26_Luigi_3_NA_Cover.PNG"
+            },
+            {
+              "ID": "DS_3",
+              "PRODUCT_NAME": "Pokémon Platnium Version",
+              "PRODUCT_RELEASE_DATE": 2008,
+              "PRICE": "$40",
+              "RATING": 83,
+              "PRODUCT_DESC": "Pokémon Platnium Version is a role-playing game developed by Game Freak where the player travels the fictional world of Shino catching, trading, and  battling mosters called Pokémon. Your goal is to catch every Pokémon, defeat the evil Team Galactic, and become the Pokémon Champion by beating Gym Leaders and the Elite Four in  Pokémon battles. ",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/c/ca/Pokemon_Platinum.png"
+            },
+            {
+              "ID": "DS_4",
+              "PRODUCT_NAME": "Chrono Trigger",
+              "PRODUCT_RELEASE_DATE": 2008,
+              "PRICE": "$40",
+              "RATING": 92,
+              "PRODUCT_DESC": "Chrono Trigger is a role-playing game where he characters Crono, Marle,and Lucca frequently travel through time to obtain allies, gather equipment, and learn information to help them in their quest of fixing a paradox in the past and preventing human extinction in the future. ",
+              "IMG_LINK": "https://vgboxart.com/boxes/DS/20008-chrono-trigger-old-full.jpg"
+            },
+            {
+              "ID": "DS_5",
+              "PRODUCT_NAME": "Pokémon Myster Dungeon: Explorers of Sky",
+              "PRODUCT_RELEASE_DATE": 2009,
+              "PRICE": "$40",
+              "RATING": 54,
+              "PRODUCT_DESC": "in Pokémon Myster Dungeon: Explorers of Sky you play as a human who has been turned into a Pokémon and has lost their  memory. Help Pokemon in need, explore new areas, and uncover secrets  as you quest to retreive your memories. ",
+              "IMG_LINK": "https://static.wikia.nocookie.net/pokemon/images/a/a3/PMD3.jpg/revision/latest?cb=20140705084847"
+            },
+            {
+              "ID": "DS_6",
+              "PRODUCT_NAME": "Grand Theft  Auto: Chinatown Wars",
+              "PRODUCT_RELEASE_DATE": 2009,
+              "PRICE": "$40",
+              "RATING": 93,
+              "PRODUCT_DESC": "Grand Theft Auto: Chinatown Wars is a 2009 action-adventure game developed by Rockstar Games. Cause choas in Liberty City as you play as Triad member Huang Lee trying to recover his dead fathers sword and clime the ranks of the Triad. ",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/7/75/ChinatownWars.jpg"
+            }
+           ],
+           "3DS" : [
+            {
+              "ID": "3DS_1",
+              "PRODUCT_NAME": "Animal Crossing: New Leaf",
+              "PRODUCT_RELEASE_DATE": 2011,
+              "PRICE": "$45",
+              "RATING": 88,
+              "PRODUCT_DESC": "Animal Crossing: New Leaf is a 2012 social simulation game developed and published by Nintendo for the Nintendo 3DS. In the game, the player controls a human character who takes on the role of mayor in a town populated with anthropomorphic animals.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/0/04/AnimalCrossingNewLeafNABoxart.jpg"
+            },
+            {
+              "ID": "3DS_2",
+              "PRODUCT_NAME": "Super Mario 3D Land",
+              "PRODUCT_RELEASE_DATE": 2012,
+              "PRICE": "$45",
+              "RATING": 90,
+              "PRODUCT_DESC": "Super Mario 3D Land reinvents everything fans love about Mario™ gaming with the first platforming environment in true 3D, without the need for special glasses Players will experience an exhilarating new sense of depth, distance and speed while running, jumping and stomping on enemies throughout the levels.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/4/42/Super-Mario-3D-Land-Logo.jpg"
+            },
+            {
+              "ID": "3DS_3",
+              "PRODUCT_NAME": "Luigi's Mansion: Dark Moon",
+              "PRODUCT_RELEASE_DATE": 2013,
+              "PRICE": "$45",
+              "RATING": 86,
+              "PRODUCT_DESC": "The new Luigi's Mansion: Dark Moon gives players multiple mansions to explore, a variety of puzzles to solve and new ghosts to capture. Armed with the Poltergust 5000, a ghost-sucking, vacuum-like invention, Luigi must complete a number of missions assigned to him by Professor E. Gadd.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/a/a4/Luigi%27s_Mansion_Dark_Moon_%28Boxart%29.png"
+            },
+            {
+              "ID": "3DS_4",
+              "PRODUCT_NAME": "Pokémon X and Y",
+              "PRODUCT_RELEASE_DATE": 2013,
+              "PRICE": "$45",
+              "RATING": 87,
+              "PRODUCT_DESC": "X and Y introduced 72 new Pokémon species, and includes new features such as the new Fairy-type, character customization, updated battle and training mechanics, and completely rendered polygonal 3D graphics as opposed to the sprites used in previous generations.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/8/85/PokemonXBoxart.jpg https://img.pokemondb.net/boxes/lg/y-large.jpg"
+            },
+            {
+              "ID": "3DS_5",
+              "PRODUCT_NAME": "Metroid: Samus Returns",
+              "PRODUCT_RELEASE_DATE": 2017,
+              "PRICE": "$45",
+              "RATING": 85,
+              "PRODUCT_DESC": "Metroid: Samus Returns is a side-scrolling action-adventure displayed in a 2.5D perspective. Players take control of series protagonist Samus Aran, a bounty hunter who explores labyrinthine environments, kills hostile aliens, and collects power-ups to gain access to new areas.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/1/16/Metroid_Samus_Returns.jpg"
+            },
+            {
+              "ID": "3DS_6",
+              "PRODUCT_NAME": "Mario Kart 7",
+              "PRODUCT_RELEASE_DATE": 2011,
+              "PRICE": "$45",
+              "RATING": 85,
+              "PRODUCT_DESC": "Mario Kart 7 offers 32 different race tracks, which consist of 16 new tracks and 16 tracks remade from prior Mario Kart games. Mario Kart 7 features four single-player game modes: Grand Prix, Time Trial, Balloon Battle, and Coin Runners. Some modes feature multiplayer options.",
+              "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/2/2a/Mario_Kart_7_box_art.jpg"
+            }
+           ]
+    },
+    "REVIEWS":{
+        "MAIN": [
+            {
+              "ID": "REV_1",
+              "NAME": "Link",
+              "DATE": 2021,
+              "REVIEW": "8-Bit Shop has some of the most popular games for the best price"
+            },
+            {
+              "ID": "REV_2",
+              "NAME": "Wario",
+              "DATE": 2023,
+              "REVIEW": "8-Bit Shop is a rip off, as a penny pincher I was expecting games to be free."
+            },
+            {
+              "ID": "REV_3",
+              "NAME": "Pikachu",
+              "DATE": 2020,
+              "REVIEW": "Pika-pik Pika Pika Pikachu."
+            }
+            ]
+
+    }
+
+
+
+}
