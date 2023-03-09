@@ -181,87 +181,70 @@
       <!-- Wrap the rest of the page in another container to center all the content. -->
 
       <div class="container marketing">
-        
-          <h1 style="text-align: center; margin-bottom: 50px;">Reviews</h1>
-       
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-          <script type="text/javascript">
-            fetch('data2.json')
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (data) {
-    getReviews(data);
-  })
-  .catch(function (err) {
-    console.log('error:' + err);
-  })
+        <script type="text/javascript">
+          fetch('data2.json')
+.then(function (response) {
+  return response.json();
+})
+.then(function (data) {
+  getReviews(data);
+})
+.catch(function (err) {
+  console.log('error:' + err);
+})
 
 function getReviews(data) {
-  let mainContainer = document.getElementById("myData");
-  let div = document.createElement("h2");
-  div.innerHTML = `  ${data.REVIEWS.MAIN[0].NAME} `;
-  mainContainer.appendChild(div);
+let mainContainer = document.getElementById("myData");
+let div = document.createElement("h2");
+div.innerHTML = `  ${data.REVIEWS.MAIN[0].NAME} `;
+mainContainer.appendChild(div);
 
-  let mainContainer6 = document.getElementById("myData6");
-  let div6 = document.createElement('p');
-  div6.innerHTML = `  ${data.REVIEWS.MAIN[0].REVIEW} <br> -${data.REVIEWS.MAIN[0].DATE}`;
-  mainContainer6.appendChild(div6);
-  
+let mainContainer6 = document.getElementById("myData6");
+let div6 = document.createElement('p');
+div6.innerHTML = `  ${data.REVIEWS.MAIN[0].REVIEW} <br> -${data.REVIEWS.MAIN[0].DATE}`;
+mainContainer6.appendChild(div6);
 
-  let mainContainer2 = document.getElementById("myData2");
-  let div2 = document.createElement("h2");
-  div2.innerHTML = `  ${data.REVIEWS.MAIN[1].NAME}`;
-  mainContainer2.appendChild(div2);
 
-  let mainContainer5 = document.getElementById("myData5");
-  let div5 = document.createElement('p');
-  div5.innerHTML = `  ${data.REVIEWS.MAIN[1].REVIEW} <br> -${data.REVIEWS.MAIN[1].DATE}`;
-  mainContainer5.appendChild(div5);
+let mainContainer2 = document.getElementById("myData2");
+let div2 = document.createElement("h2");
+div2.innerHTML = `  ${data.REVIEWS.MAIN[1].NAME}`;
+mainContainer2.appendChild(div2);
 
-  let mainContainer3 = document.getElementById("myData3");
-  let div3 = document.createElement("h2");
-  div3 = document.createElement("h2");
-  div3.innerHTML = `  ${data.REVIEWS.MAIN[2].NAME}`;
-  mainContainer3.appendChild(div3);
+let mainContainer5 = document.getElementById("myData5");
+let div5 = document.createElement('p');
+div5.innerHTML = `  ${data.REVIEWS.MAIN[1].REVIEW} <br> -${data.REVIEWS.MAIN[1].DATE}`;
+mainContainer5.appendChild(div5);
 
-  let mainContainer4 = document.getElementById("myData4");
-  let div4 = document.createElement('p');
-  div4.innerHTML = `  ${data.REVIEWS.MAIN[2].REVIEW}  <br> -${data.REVIEWS.MAIN[2].DATE}`;
-  mainContainer4.appendChild(div4);
-  }
-          </script>
+let mainContainer3 = document.getElementById("myData3");
+let div3 = document.createElement("h2");
+div3 = document.createElement("h2");
+div3.innerHTML = `  ${data.REVIEWS.MAIN[2].NAME}`;
+mainContainer3.appendChild(div3);
+
+let mainContainer4 = document.getElementById("myData4");
+let div4 = document.createElement('p');
+div4.innerHTML = `  ${data.REVIEWS.MAIN[2].REVIEW}  <br> -${data.REVIEWS.MAIN[2].DATE}`;
+mainContainer4.appendChild(div4);
+
+let mainContainerAd1 = document.getElementById("AD1");
+let divAD1 = document.createElement('h1');
+divAD1.innerHTML = `  ${data.ADS.MAIN[0].TITLE}`;
+
+mainContainerAd1.appendChild(divAD1);
+}
+        </script>
+          
+       
+        <!-- Three columns of text below the carousel -->
         
-           <div class="col-lg-4">
-            <img class="bd-placeholder-img rounded-circle"width="140" height="140" src="myotherimages/linktoy.jpg" >
-        <h2 class="fw-normal" id="myData"></h2>
-        <p id = "myData6"></p>
-        
-      </div> 
-      <div class="col-lg-4">
-        <img class="bd-placeholder-img rounded-circle" src="./myotherimages/nintendo-amiibo-wario.jpg" width="140" height="140"  role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
-        <h2 class="fw-normal" id="myData2"></h2>
-        <p id="myData5"></p>
-        
-      </div>  
-      <div class="col-lg-4">
-        <img class="bd-placeholder-img rounded-circle" src="./myotherimages/pokemonplush.jpg" width="140" height="140"  role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
-        <h2 class="fw-normal" id="myData3"></h2>
-        <p id="myData4"></p>
-        
-      </div>
-        </div><!-- /.row -->
-
 
         <!-- START THE FEATURETTES -->
 
-        <hr class="featurette-divider">
+        
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow
-                your mind.</span></h2>
+            <h1 class="featurette-heading fw-normal lh-1" id="AD1"></h1>
             <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose
               here.</p>
           </div>
@@ -316,6 +299,30 @@ function getReviews(data) {
 
         <hr class="featurette-divider">
 
+        <div class="row">
+          <h1 style="text-align: center; margin-bottom: 50px;">Reviews</h1>
+          
+        
+           <div class="col-lg-4">
+            <img class="bd-placeholder-img rounded-circle"width="140" height="140" src="myotherimages/linktoy.jpg" >
+        <h2 class="fw-normal" id="myData"></h2>
+        <p id = "myData6"></p>
+        
+      </div> 
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="./myotherimages/nintendo-amiibo-wario.jpg" width="140" height="140"  role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
+        <h2 class="fw-normal" id="myData2"></h2>
+        <p id="myData5"></p>
+        
+      </div>  
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" src="./myotherimages/pokemonplush.jpg" width="140" height="140"  role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
+        <h2 class="fw-normal" id="myData3"></h2>
+        <p id="myData4"></p>
+        
+      </div>
+        </div><!-- /.row -->
+
         <!-- /END THE FEATURETTES -->
 
       </div><!-- /.container -->
@@ -324,7 +331,7 @@ function getReviews(data) {
       <!-- FOOTER -->
       <footer class="container">
         <p class="float-end"><a href="#">Back to top</a></p>
-        <p>&copy; 2017–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2017–2023 *-Bit Shop. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a>&middot; <a href="#">1-800-BITS</a> </p>
       </footer>
   </main>
 

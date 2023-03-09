@@ -527,7 +527,31 @@
             }
             ]
 
-    }
+    },
+    "ADS":{
+      "MAIN": [
+          {
+            "ID": "AD_1",
+            "TITLE": "Press Start",
+            "DESC": "View a wide catalogue of games for the best price from all generations.",
+            "IMG": "./images/NES_Console.jpg"
+          },
+          {
+            "ID": "AD_2",
+            "TITLE": "Wario",
+            "DESC": 2023,
+            "IMG": "8-Bit Shop is a rip off, as a penny pincher I was expecting games to be free."
+          },
+          {
+            "ID": "AD_3",
+            "TITLE": "Pikachu",
+            "DESC": 2020,
+            "IMG": "Pika-pik Pika Pika Pikachu."
+          }
+          ]
+
+  }
+
 
 
 
