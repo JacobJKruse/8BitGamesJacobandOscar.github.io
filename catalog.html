@@ -79,6 +79,36 @@
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
 
+    <header>
+
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./myotherimages/logo.png" height="90px" width="200px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="catalog.html">Catalog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
 
   <main class="d-flex flex-nowrap">
 
@@ -96,7 +126,7 @@
             Home
           </a>
         </li>
-        <li>
+        <li onclick="setFunction(0)">
           <a href="./catalog.html" class="nav-link text-white">
 
             NES
@@ -157,6 +187,13 @@
 
     <script type="text/javascript">
 
+      var system = "WII";
+
+      function setSystem(s) {
+        if(s==0)
+          system = "NES";
+      }
+
       fetch('data.json')
         .then(function (response) {
           return response.json();
@@ -168,117 +205,146 @@
           console.log('error:' + err);
         })
 
+
+
+
+
       function appendData(data) {
-        let mainContainer = document.getElementById("myData");
-        for (let productName in data) {
-          let div = document.createElement("div");
-          div.innerHTML = `<br> <br> <h2> ${productName} </h2>`;
-          mainContainer.appendChild(div);
-
-          let mainContainer2 = document.getElementById("ID");
-
-          for (let element of data[productName]) {
-            console.log(element);
-            let div2 = document.createElement("div");
-            div2.innerHTML = `${element["ID"]} : ${element["PRICE"]} <br>`;
-            mainContainer.appendChild(div2);
+        let mainContainer = document.getElementsByTagName("p");
+        for (let x of mainContainer) {
+          if (x.id == "0") {
+            let div = document.createElement("div");
+            div.innerHTML = `${data[system][0]["PRODUCT_NAME"]} <br> ${data[system][0]["PRICE"]} <br> ${data[system][0]["RATING"]}`;
+            x.appendChild(div);
           }
-        }
+          else if (x.id == "1") {
+            let div = document.createElement("div");
+            div.innerHTML = `${data[system][1]["PRODUCT_NAME"]} <br> ${data[system][1]["PRICE"]} <br> ${data[system][1]["RATING"]}`;
+            x.appendChild(div);
+          }
+          else if (x.id == "2") {
+            let div = document.createElement("div");
+            div.innerHTML = `${data[system][2]["PRODUCT_NAME"]} <br> ${data[system][2]["PRICE"]} <br> ${data[system][2]["RATING"]}`;
+            x.appendChild(div);
+          }
+          else if (x.id == "3") {
+            let div = document.createElement("div");
+            div.innerHTML = `${data[system][3]["PRODUCT_NAME"]} <br> ${data[system][3]["PRICE"]} <br> ${data[system][3]["RATING"]}`;
+            x.appendChild(div);
+          }
+          else if (x.id == "4") {
+            let div = document.createElement("div");
+            div.innerHTML = `${data[system][4]["PRODUCT_NAME"]} <br> ${data[system][4]["PRICE"]} <br> ${data[system][4]["RATING"]}`;
+            x.appendChild(div);
+          }
+          else if (x.id == "5") {
+            let div = document.createElement("div");
+            div.innerHTML = `${data[system][5]["PRODUCT_NAME"]} <br> ${data[system][5]["PRICE"]} <br> ${data[system][5]["RATING"]}`;
+            x.appendChild(div);
+          }
 
+
+          // }
+        }
       }
+
     </script>
 
-    <div id="myData">
-      <div id="ID">
 
-      </div>
-    </div>
 
-    <!-- <div class="b-example-divider b-example-vr"></div>
-  <div class="album py-5 bg-light">
-    <div class="container">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
-          <div class="card shadow-sm" id="myData">
-            <div class="card-body" id="myProduct">
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="" alt="">
-            <div class="card-body">
-              <p class="card-text"></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+    <div class="b-example-divider b-example-vr"></div>
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="" alt="">
+              <div class="card-body">
+                <p class="card-text" id="0"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="" alt="">
-            <div class="card-body">
-              <p class="card-text"></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="" alt="">
+              <div class="card-body">
+                <p class="card-text" id="1"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="" alt="">
-            <div class="card-body">
-              <p class="card-text"></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="" alt="">
+              <div class="card-body">
+                <p class="card-text" id="2"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </div>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src=""  alt="">
-            <div class="card-body">
-              <p class="card-text"></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="" alt="">
+              <div class="card-body">
+                <p class="card-text" id="3"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </div>
+
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="" alt="">
-            <div class="card-body">
-              <p class="card-text"></p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>                </div>
-                <small class="text-muted">9 mins</small>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="" alt="">
+              <div class="card-body">
+                <p class="card-text" id="4"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  </div>
+
+                </div>
               </div>
             </div>
           </div>
-        </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="" alt="">
+              <div class="card-body">
+                <p class="card-text" id="5"></p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
 
-</main>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+  </main>
 
 
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
-      <script src="sidebars.js"></script> -->
+  <script src="sidebars.js"></script>
 </body>
 
 </html>
