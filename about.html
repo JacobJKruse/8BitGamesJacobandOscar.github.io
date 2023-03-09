@@ -73,48 +73,39 @@
 
     
   </head>
+
   <body>
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-      <header>
-  <div class="collapse bg-dark" id="navbarHeader">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 col-md-7 py-4">
-
-          <p class="text-white">Select one of the links to the right to navigate between pages</p>
+    <header>
+  
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./myotherimages/logo.png" height="90px" width="200px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Catalog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-        <div class="col-sm-4 offset-md-1 py-4">
-          <h4 class="text-white">Navigate </h4>
-          <ul class="list-unstyled">
-            <li><a href="./index.html" class="text-white">Home</a></li>
-            <li><a href="./oscar'sFavorites.html" class="text-white">Oscar's Games</a></li>
-            <li><a href="./jacob.html" class="text-white">Jacob's Games</a></li>
-            <li><a href="./about.html" class="text-white">About</a></li>
-
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="navbar navbar-dark bg-dark shadow-sm">
-    <div class="container">
-      <a href="index.html" class="navbar-brand d-flex align-items-center">
-        <i class='fas fa-gamepad' style='font: size 24px;color:white; padding-right: 4px;'></i>
-       <!--<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/></svg>--> 
-        <strong>Our Favorite Games</strong>
-      </a>
-      <a href="jacob.html" class="navbar-brand d-flex align-items-center"><strong>Jacob's Games</strong></a>
-      <a href="oscar'sFavorites.html" class="navbar-brand d-flex align-items-center"><strong>Oscar's Games</strong></a>
-      <a href="about.html" class="navbar-brand d-flex align-items-center"><strong>About</strong></a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </div>
-</header>
+      </nav>
+    </header>
 
 <main>
 
@@ -129,7 +120,7 @@
             <p>
                 Major: Computer Science<br>
                 Minior: Cyber Security<br>
-                school Email : jjkruse@iastate.edu<br>
+                School Email : jjkruse@iastate.edu<br>
                 Personal Email : jakruse02@gmail.com<br>
             </p>
         </p>
