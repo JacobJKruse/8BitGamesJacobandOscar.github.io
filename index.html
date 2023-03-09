@@ -78,7 +78,7 @@
   <link href="styles.css" rel="stylesheet">
 </head>
 
-<body>
+<body onload="displayReviews()">
 
   <header>
 
@@ -185,56 +185,52 @@
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <script type="text/javascript">
-
             fetch('data2.json')
-              .then(function (response) {
-                return response.json();
-              })
-              .then(function (data) {
-                appendData(data);
-              })
-              .catch(function (err) {
-                console.log('error:' + err);
-              })
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+    getReviews(data);
+  })
+  .catch(function (err) {
+    console.log('error:' + err);
+  })
 
-            function appendData(data) {
-              let mainContainer = document.getElementById("myData");
-              let div = document.createElement("h2");
-              div.innerHTML = `  ${data.REVIEWS.MAIN[0].NAME} `;
-              mainContainer.appendChild(div);
+function getReviews(data) {
+  let mainContainer = document.getElementById("myData");
+  let div = document.createElement("h2");
+  div.innerHTML = `  ${data.REVIEWS.MAIN[0].NAME} `;
+  mainContainer.appendChild(div);
 
-              let mainContainer6 = document.getElementById("myData6");
-              let div6 = document.createElement('p');
-              div6.innerHTML = `  ${data.REVIEWS.MAIN[0].REVIEW} <br> -${data.REVIEWS.MAIN[0].DATE}`;
-              mainContainer6.appendChild(div6);
-              
+  let mainContainer6 = document.getElementById("myData6");
+  let div6 = document.createElement('p');
+  div6.innerHTML = `  ${data.REVIEWS.MAIN[0].REVIEW} <br> -${data.REVIEWS.MAIN[0].DATE}`;
+  mainContainer6.appendChild(div6);
+  
 
-              let mainContainer2 = document.getElementById("myData2");
-              let div2 = document.createElement("h2");
-              div2.innerHTML = `  ${data.REVIEWS.MAIN[1].NAME}`;
-              mainContainer2.appendChild(div2);
+  let mainContainer2 = document.getElementById("myData2");
+  let div2 = document.createElement("h2");
+  div2.innerHTML = `  ${data.REVIEWS.MAIN[1].NAME}`;
+  mainContainer2.appendChild(div2);
 
-              let mainContainer5 = document.getElementById("myData5");
-              let div5 = document.createElement('p');
-              div5.innerHTML = `  ${data.REVIEWS.MAIN[1].REVIEW} <br> -${data.REVIEWS.MAIN[1].DATE}`;
-              mainContainer5.appendChild(div5);
+  let mainContainer5 = document.getElementById("myData5");
+  let div5 = document.createElement('p');
+  div5.innerHTML = `  ${data.REVIEWS.MAIN[1].REVIEW} <br> -${data.REVIEWS.MAIN[1].DATE}`;
+  mainContainer5.appendChild(div5);
 
-              let mainContainer3 = document.getElementById("myData3");
-              let div3 = document.createElement("h2");
-              div3 = document.createElement("h2");
-              div3.innerHTML = `  ${data.REVIEWS.MAIN[2].NAME}`;
-              mainContainer3.appendChild(div3);
+  let mainContainer3 = document.getElementById("myData3");
+  let div3 = document.createElement("h2");
+  div3 = document.createElement("h2");
+  div3.innerHTML = `  ${data.REVIEWS.MAIN[2].NAME}`;
+  mainContainer3.appendChild(div3);
 
-              let mainContainer4 = document.getElementById("myData4");
-              let div4 = document.createElement('p');
-              div4.innerHTML = `  ${data.REVIEWS.MAIN[2].REVIEW}  <br> -${data.REVIEWS.MAIN[2].DATE}`;
-              mainContainer4.appendChild(div4);
-              }
-
-            </script>
-
+  let mainContainer4 = document.getElementById("myData4");
+  let div4 = document.createElement('p');
+  div4.innerHTML = `  ${data.REVIEWS.MAIN[2].REVIEW}  <br> -${data.REVIEWS.MAIN[2].DATE}`;
+  mainContainer4.appendChild(div4);
+  }
+          </script>
         
-
            <div class="col-lg-4">
             <img class="bd-placeholder-img rounded-circle"width="140" height="140" src="myotherimages/linktoy.jpg" >
         <h2 class="fw-normal" id="myData"></h2>
