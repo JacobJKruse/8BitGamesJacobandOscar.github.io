@@ -352,7 +352,7 @@
    "PRICE": "$45",
    "RATING": 83,
    "PRODUCT_DESC": "The story follows the player as they defeat Teams Aqua and Team Magma, crime groups who want to use Pokémon to change the weather in Hoenn. In Ruby, Team Magma, want to use the legendary Pokémon Groudon to dry up the oceans of Hoenn and increase the amount of land; in Sapphire, the Team Aqua are the villains and they try to Kyogre, to increase the Hoenn's water levels. ",
-   "IMG_LINK": "./images/GBA_PKMN_RUBY.jpg"
+   "IMG_LINK": "./images/GBA_PKMN_RS.jpg"
  },
  {
    "ID": "GBA_3",
@@ -361,7 +361,7 @@
    "PRICE": "$45",
    "RATING": 89,
    "PRODUCT_DESC": "The titular \"Minish cap\" refers to a new ability that allows Link to transform into \"Minish size\" using portals throughout the world. Link's smaller size changes his ability to traverse his environments. For instance, a small portal inaccessible to Link in his normal size can be used by Minish-sized Link.",
-   "IMG_LINK": "./images/GBA_LOX_TMC.JPG"
+   "IMG_LINK": "./images/GBA_LOZ_TMC.JPG"
  },
  {
    "ID": "GBA_4",
@@ -482,7 +482,7 @@
    "PRICE": "$45",
    "RATING": 87,
    "PRODUCT_DESC": "X and Y introduced 72 new Pokémon species, and includes new features such as the new Fairy-type, character customization, updated battle and training mechanics, and completely rendered polygonal 3D graphics as opposed to the sprites used in previous generations.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/8/85/PokemonXBoxart.jpg https://img.pokemondb.net/boxes/lg/y-large.jpg"
+   "IMG_LINK": "./images/3DS_PKMN_XY.jpg"
  },
  {
    "ID": "3DS_5",
