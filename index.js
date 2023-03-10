@@ -133,6 +133,10 @@ function appendData(data) {
 
     }
 }
+
+
 update();
+
+
 
 
