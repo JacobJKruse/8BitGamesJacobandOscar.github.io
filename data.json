@@ -63,7 +63,7 @@
    "PRICE": "$25",
    "RATING": 92,
    "PRODUCT_DESC": "Super Mario World, known as Super Mario World: Super Mario Bros. 4 is a platform video game developed and published by Nintendo for the Super Nintendo Entertainment System (SNES).",
-   "IMG_LINK": "./images/SNES_SUPERMARIOWORLD.jpg"
+   "IMG_LINK": "./images/SNES_SUPERMARIOWORLD.png"
  },
  {
    "ID": "SNES_2",
@@ -81,7 +81,7 @@
    "PRICE": "$60",
    "RATING": 75,
    "PRODUCT_DESC": "Following his failure to defeat Liu Kang in the previous Mortal Kombat tournament, the evil Shang Tsung begs his master Shao Kahn, supreme ruler of Outworld and the surrounding kingdoms, to spare his life. He tells Shao Kahn that if they hold the next Mortal Kombat Tournament in Outworld, the Earthrealm warriors must travel away from home to attend.",
-   "IMG_LINK": "./images/SNES_MKII.jpg"
+   "IMG_LINK": "./images/SNES_MKII.webp"
  },
  {
    "ID": "SNES_4",
@@ -99,7 +99,7 @@
    "PRICE": "$60",
    "RATING": 84,
    "PRODUCT_DESC": "It is a reboot of Nintendo's Donkey Kong franchise and follows the gorilla Donkey Kong and his nephew Diddy Kong as they set out to recover their stolen banana hoard from the crocodile King K.",
-   "IMG_LINK": "./images/SNES_DonkeyKongCountry"
+   "IMG_LINK": "./images/SNES_DonkeyKongCountry.png"
  },
  {
    "ID": "SNES_6",
@@ -119,7 +119,7 @@
    "PRICE": "$60",
    "RATING": 92,
    "PRODUCT_DESC": "Super Mario 64 is a 3D platformer in which the player controls Mario through various courses. Mario's abilities are far more diverse than in previous games. He can walk, run, jump, crouch, crawl, climb, swim, kick, grab objects, and punch using the game controller's analog stick and buttons.",
-   "IMG_LINK": "./images/N64_SUPERMARIO.jpg"
+   "IMG_LINK": "./images/N64_SUPERMARIO64.jpg"
  },
  {
    "ID": "N64_2",
@@ -128,7 +128,7 @@
    "PRICE": "$60",
    "RATING": 90,
    "PRODUCT_DESC": "Super Smash Brospits Nintendo's biggest stars against each other in an all-out slugfest. Delivering fast-paced fighting action which is easy to learn and tough to master, this game features new moves, never-before seen battle arenas, and a fresh arsenal of special items.",
-   "IMG_LINK": "./images/SSB.jpg"
+   "IMG_LINK": "./images/N64_SSB.jpg"
  },
  {
    "ID": "N64_3",
@@ -184,7 +184,7 @@
    "PRICE": "$60",
    "RATING": 96,
    "PRODUCT_DESC": "The player controls series protagonist Link as he attempts to save his sister from the sorcerer Ganondorf and becomes embroiled in a struggle for the Triforce. Travel the flooded world of Hyrule as you travel by boat from island to island and stop evil. ",
-   "IMG_LINK": "./images/GC_LOZ_TWW,jpg"
+   "IMG_LINK": "./images/GC_LOZ_TWW.jpg"
  },
  {
    "ID": "GC_3",
@@ -220,7 +220,7 @@
    "PRICE": "$60",
    "RATING": 87,
    "PRODUCT_DESC": "Double Dash is a kart racing video game in which the player races in a kart against other teams in different courses. This is the only game in the series in which instead of one character per kart, there are two: one to drive, and one to use items.",
-   "IMG_LINK": "./images/GC_MK_DD,jpg"
+   "IMG_LINK": "./images/GC_MK_DD.jpg"
  }
 ],
 "WII" : [
@@ -240,7 +240,7 @@
    "PRICE": "$60",
    "RATING": 76,
    "PRODUCT_DESC": "Wii Sports is a 2006 sports simulation video game developed and published by Nintendo for the Wii video game console.You can play Tennis, Baseball,  Boxing, Golf, and  Bowling using  motion controls. ",
-   "IMG_LINK": "./images/WIISPORTS.jpg"
+   "IMG_LINK": "./images/WII_WIISPORTS.jpg"
  },
  {
    "ID": "WII_3",
@@ -417,7 +417,7 @@
    "PRICE": "$40",
    "RATING": 83,
    "PRODUCT_DESC": "Pokémon Platnium Version is a role-playing game developed by Game Freak where the player travels the fictional world of Shino catching, trading, and  battling mosters called Pokémon. Your goal is to catch every Pokémon, defeat the evil Team Galactic, and become the Pokémon Champion by beating Gym Leaders and the Elite Four in  Pokémon battles. ",
-   "IMG_LINK": "./images/DS_PMKNPlATNIUM,png"
+   "IMG_LINK": "./images/DS_PMKN_PLATNIUM.png"
  },
  {
    "ID": "DS_4",
@@ -435,7 +435,7 @@
    "PRICE": "$40",
    "RATING": 54,
    "PRODUCT_DESC": "in Pokémon Myster Dungeon: Explorers of Sky you play as a human who has been turned into a Pokémon and has lost their  memory. Help Pokemon in need, explore new areas, and uncover secrets  as you quest to retreive your memories. ",
-   "IMG_LINK": "https://static.wikia.nocookie.net/pokemon/images/a/a3/PMD3.jpg/revision/latest?cb=20140705084847"
+   "IMG_LINK": ""
  },
  {
    "ID": "DS_6",
