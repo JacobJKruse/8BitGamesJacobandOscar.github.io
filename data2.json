@@ -541,9 +541,9 @@
           },
           {
             "ID": "AD_2",
-            "TITLE": "Wario",
-            "DESC": 2023,
-            "IMG": "8-Bit Shop is a rip off, as a penny pincher I was expecting games to be free."
+            "TITLE": "Level Up Your Game",
+            "DESC": "A variety of handheld games to pick from.",
+            "IMG": "./images/GBA.jpg"
           },
           {
             "ID": "AD_3",
