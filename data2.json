@@ -536,21 +536,16 @@
           {
             "ID": "AD_1",
             "TITLE": "Press Start",
-            "DESC": "View a wide catalogue of games for the best price from all generations.",
+            "DESC": "View a wide catalogue of games for the best price from all generations. Now at retail prices!",
             "IMG": "./images/NES_Console.jpg"
           },
           {
             "ID": "AD_2",
             "TITLE": "Level Up Your Game",
-            "DESC": "A variety of handheld games to pick from.",
+            "DESC": "A variety of handheld games to pick from.Get a 2 for one deal on all handheld games.",
             "IMG": "./images/GBA.jpg"
-          },
-          {
-            "ID": "AD_3",
-            "TITLE": "Pikachu",
-            "DESC": 2020,
-            "IMG": "Pika-pik Pika Pika Pikachu."
           }
+          
           ]
 
   }
