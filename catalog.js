@@ -103,31 +103,31 @@ function appendData(data) {
     for (let x of mainContainer) {
         if (x.id == "0") {
             
-            x.innerHTML = `${data[system][0]["PRODUCT_NAME"]} <br> Price: ${data[system][0]["PRICE"]} <br> Rating: ${data[system][0]["RATING"]}%`;
+            x.innerHTML = `<h3>${data[system][0]["PRODUCT_NAME"]}</h3> <br> ${data[system][0]["PRODUCT_DESC"]} <br> Price: ${data[system][0]["PRICE"]} <br> Rating: ${data[system][0]["RATING"]}%`;
             
         }
         else if (x.id == "1") {
             
-            x.innerHTML = `${data[system][1]["PRODUCT_NAME"]} <br> Price: ${data[system][1]["PRICE"]} <br>  Rating: ${data[system][1]["RATING"]}%`;
+            x.innerHTML = `<h3>${data[system][1]["PRODUCT_NAME"]}</h3> <br> ${data[system][1]["PRODUCT_DESC"]} <br> Price: ${data[system][1]["PRICE"]} <br>  Rating: ${data[system][1]["RATING"]}%`;
             
         }
         else if (x.id == "2") {
             
-            x.innerHTML = `${data[system][2]["PRODUCT_NAME"]} <br> Price: ${data[system][2]["PRICE"]} <br>  Rating: ${data[system][2]["RATING"]}%`;
+            x.innerHTML = `<h3>${data[system][2]["PRODUCT_NAME"]}</h3> <br> ${data[system][2]["PRODUCT_DESC"]} <br> Price: ${data[system][2]["PRICE"]} <br>  Rating: ${data[system][2]["RATING"]}%`;
             
         }
         else if (x.id == "3") {
             
-            x.innerHTML = `${data[system][3]["PRODUCT_NAME"]} <br> Price: ${data[system][3]["PRICE"]} <br>  Rating: ${data[system][3]["RATING"]}%`;
+            x.innerHTML = `<h3>${data[system][3]["PRODUCT_NAME"]}</h3> <br> ${data[system][3]["PRODUCT_DESC"]} <br> Price: ${data[system][3]["PRICE"]} <br>  Rating: ${data[system][3]["RATING"]}%`;
             
         }
         else if (x.id == "4") {
            
-            x.innerHTML = `${data[system][4]["PRODUCT_NAME"]} <br> Price: ${data[system][4]["PRICE"]} <br> Rating: ${data[system][4]["RATING"]}%`;
+            x.innerHTML = `<h3>${data[system][4]["PRODUCT_NAME"]}</h3> <br> ${data[system][4]["PRODUCT_DESC"]} <br> Price: ${data[system][4]["PRICE"]} <br> Rating: ${data[system][4]["RATING"]}%`;
             
         }
         else if (x.id == "5") {
-            x.innerHTML = `${data[system][5]["PRODUCT_NAME"]} <br> Price: ${data[system][5]["PRICE"]} <br> Rating: ${data[system][5]["RATING"]}%`;
+            x.innerHTML = `<h3>${data[system][5]["PRODUCT_NAME"]}</h3> <br> ${data[system][5]["PRODUCT_DESC"]} <br> Price: ${data[system][5]["PRICE"]} <br> Rating: ${data[system][5]["RATING"]}%`;
             
         }
 

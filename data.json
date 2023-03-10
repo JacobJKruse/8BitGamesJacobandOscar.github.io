@@ -7,7 +7,7 @@
    "PRICE": "$15",
    "RATING": 80,
    "PRODUCT_DESC": "Duck Hunt is a shooter game in which the objective is to shoot moving targets on the screen in mid-flight. The game is played from a first-person perspective and requires the NES Zapper light gun, which the player aims and fires at the screen.",
-   "IMG_LINK": "NES_DuckHunt"
+   "IMG_LINK": "./images/NES_DuckHunt.jpg"
  },
  {
    "ID": "NES_2",
