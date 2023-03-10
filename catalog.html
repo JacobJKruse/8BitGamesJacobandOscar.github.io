@@ -91,7 +91,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="catalog.html">Catalog</a>
@@ -120,62 +120,56 @@
       </a>
       <hr>
       <ul class="nav nav-pills flex-column mb-auto">
-        <li class="nav-item" >
-          <a href="./index.html" class="nav-link active" aria-current="page">
-
-            Home
-          </a>
-        </li>
-        <li id="NES">
-          <a href="./catalog.html" class="nav-link text-white">
+        <li>
+          <a href="#" class="nav-link text-white" id="NES">
 
             NES
           </a>
         </li>
-        <li id="SNES">
-          <a href="#" class="nav-link text-white">
+        <li>
+          <a href="#" class="nav-link text-white" id="SNES">
 
             SNES
           </a>
         </li>
         <li>
-          <a href="#" class="nav-link text-white">
+          <a href="#" class="nav-link text-white" id="N64">
 
             N64
           </a>
         </li>
         <li>
-          <a href="#" class="nav-link text-white">
+          <a href="#" class="nav-link text-white" id="GC">
 
             GameCube
           </a>
         </li>
         <li>
-          <a href="#" class="nav-link text-white">
+          <a href="#" class="nav-link text-white" id="WII">
 
             Wii
           </a>
         </li>
         <li>
-          <a href="#" class="nav-link text-white">
+          <a href="#" class="nav-link text-white" Id="GB">
 
             Gameboy
           </a>
         </li>
         <li>
-          <a href="#" class="nav-link text-white">
+          <a href="#" class="nav-link text-white" id="GBA">
 
             Gameboy Advanced
           </a>
         </li>
         <li>
-          <a href="#" class="nav-link text-white">
+          <a href="#" class="nav-link text-white" Id="DS">
 
             DS
           </a>
         </li>
         <li>
-          <a href="#" class="nav-link text-white">
+          <a href="#" class="nav-link text-white" id="3DS">
 
             3DS
           </a>
@@ -185,76 +179,7 @@
     </div>
 
 
-    <script type="text/javascript">
 
-
-
-
-      var system = "WII";
-
-
-      fetch('data.json')
-        .then(function (response) {
-          return response.json();
-        })
-        .then(function (data) {
-          appendData(data);
-        })
-        .catch(function (err) {
-          console.log('error:' + err);
-        })
-
-
-
-      document.getElementById("NES").addEventListener("click", setSystem("NES"));
-      document.getElementById("SNES").addEventListener("click", setSystem("SNES"));
-
-      function setSystem(name) {
-        system = name;
-      }
-
-      function appendData(data) {
-
-        let mainContainer = document.getElementsByTagName("p");
-        for (let x of mainContainer) {
-          if (x.id == "0") {
-            let div = document.createElement("div");
-            div.innerHTML = `${data[system][0]["PRODUCT_NAME"]} <br> ${data[system][0]["PRICE"]} <br> ${data[system][0]["RATING"]}`;
-            x.appendChild(div);
-          }
-          else if (x.id == "1") {
-            let div = document.createElement("div");
-            div.innerHTML = `${data[system][1]["PRODUCT_NAME"]} <br> ${data[system][1]["PRICE"]} <br> ${data[system][1]["RATING"]}`;
-            x.appendChild(div);
-          }
-          else if (x.id == "2") {
-            let div = document.createElement("div");
-            div.innerHTML = `${data[system][2]["PRODUCT_NAME"]} <br> ${data[system][2]["PRICE"]} <br> ${data[system][2]["RATING"]}`;
-            x.appendChild(div);
-          }
-          else if (x.id == "3") {
-            let div = document.createElement("div");
-            div.innerHTML = `${data[system][3]["PRODUCT_NAME"]} <br> ${data[system][3]["PRICE"]} <br> ${data[system][3]["RATING"]}`;
-            x.appendChild(div);
-          }
-          else if (x.id == "4") {
-            let div = document.createElement("div");
-            div.innerHTML = `${data[system][4]["PRODUCT_NAME"]} <br> ${data[system][4]["PRICE"]} <br> ${data[system][4]["RATING"]}`;
-            x.appendChild(div);
-          }
-          else if (x.id == "5") {
-            let div = document.createElement("div");
-            div.innerHTML = `${data[system][5]["PRODUCT_NAME"]} <br> ${data[system][5]["PRICE"]} <br> ${data[system][5]["RATING"]}`;
-            x.appendChild(div);
-          }
-
-
-          // }
-        }
-      }
-
-
-    </script>
 
 
 
@@ -270,9 +195,6 @@
               <div class="card-body">
                 <p class="card-text" id="0"></p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
                 </div>
               </div>
             </div>
@@ -283,9 +205,6 @@
               <div class="card-body">
                 <p class="card-text" id="1"></p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
                 </div>
               </div>
             </div>
@@ -296,9 +215,6 @@
               <div class="card-body">
                 <p class="card-text" id="2"></p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
                 </div>
               </div>
             </div>
@@ -309,10 +225,6 @@
               <div class="card-body">
                 <p class="card-text" id="3"></p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
-
                 </div>
               </div>
             </div>
@@ -323,9 +235,7 @@
               <div class="card-body">
                 <p class="card-text" id="4"></p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
+
 
                 </div>
               </div>
@@ -337,11 +247,6 @@
               <div class="card-body">
                 <p class="card-text" id="5"></p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-
-                  </div>
-
                 </div>
               </div>
             </div>
@@ -352,7 +257,8 @@
 
   <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
-  <script src="sidebars.js"></script>
+  <script src="index.js"></script>
+
 </body>
 
 </html>
