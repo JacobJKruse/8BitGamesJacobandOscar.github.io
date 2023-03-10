@@ -184,7 +184,7 @@
    "PRICE": "$60",
    "RATING": 96,
    "PRODUCT_DESC": "The player controls series protagonist Link as he attempts to save his sister from the sorcerer Ganondorf and becomes embroiled in a struggle for the Triforce. Travel the flooded world of Hyrule as you travel by boat from island to island and stop evil. ",
-   "IMG_LINK": "./images/GC_LOZ_TWW,jpg"
+   "IMG_LINK": "./images/GC_LOZ_TWW.jpg"
  },
  {
    "ID": "GC_3",
@@ -220,7 +220,7 @@
    "PRICE": "$60",
    "RATING": 87,
    "PRODUCT_DESC": "Double Dash is a kart racing video game in which the player races in a kart against other teams in different courses. This is the only game in the series in which instead of one character per kart, there are two: one to drive, and one to use items.",
-   "IMG_LINK": "./images/GC_MK_DD,jpg"
+   "IMG_LINK": "./images/GC_MK_DD.jpg"
  }
 ],
 "WII" : [
@@ -417,7 +417,7 @@
    "PRICE": "$40",
    "RATING": 83,
    "PRODUCT_DESC": "Pokémon Platnium Version is a role-playing game developed by Game Freak where the player travels the fictional world of Shino catching, trading, and  battling mosters called Pokémon. Your goal is to catch every Pokémon, defeat the evil Team Galactic, and become the Pokémon Champion by beating Gym Leaders and the Elite Four in  Pokémon battles. ",
-   "IMG_LINK": "./images/DS_PMKNPlATNIUM,png"
+   "IMG_LINK": "./images/DS_PMKNPlATNIUM.png"
  },
  {
    "ID": "DS_4",
@@ -435,7 +435,7 @@
    "PRICE": "$40",
    "RATING": 54,
    "PRODUCT_DESC": "in Pokémon Myster Dungeon: Explorers of Sky you play as a human who has been turned into a Pokémon and has lost their  memory. Help Pokemon in need, explore new areas, and uncover secrets  as you quest to retreive your memories. ",
-   "IMG_LINK": "https://static.wikia.nocookie.net/pokemon/images/a/a3/PMD3.jpg/revision/latest?cb=20140705084847"
+   "IMG_LINK": "./images/DS_PKMN_EOS.jpg"
  },
  {
    "ID": "DS_6",
