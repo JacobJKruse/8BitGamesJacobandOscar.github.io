@@ -7,7 +7,7 @@
    "PRICE": "$15",
    "RATING": 80,
    "PRODUCT_DESC": "Duck Hunt is a shooter game in which the objective is to shoot moving targets on the screen in mid-flight. The game is played from a first-person perspective and requires the NES Zapper light gun, which the player aims and fires at the screen.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/1/14/DuckHuntBox.jpg"
+   "IMG_LINK": "NES_DuckHunt"
  },
  {
    "ID": "NES_2",
@@ -16,7 +16,7 @@
    "PRICE": "$30",
    "RATING": 84,
    "PRODUCT_DESC": "In Super Mario Bros., The objective is to race through the Mushroom Kingdom, survive the main antagonist Bowser's forces, and save Princess Toadstool.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png"
+   "IMG_LINK": "./images/NES_SuperMarioBros.jpg"
  },
  {
    "ID": "NES_3",
@@ -25,7 +25,7 @@
    "PRICE": "$20",
    "RATING": 85,
    "PRODUCT_DESC": "Tetris  is a puzzle game developed by Atari Games and originally released for arcades in 1988. players must stack differently shaped falling blocks to form and eliminate horizontal lines from the playing field.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/7/7d/Tetris_NES_cover_art.jpg"
+   "IMG_LINK": "./images/NES_Tetris.jpg"
  },
  {
    "ID": "NES_4",
@@ -34,7 +34,7 @@
    "PRICE": "$50",
    "RATING": 84,
    "PRODUCT_DESC": "The Legend of Zelda  is a action-adventure  game  that centers on a boy named Link, who aims to collect the eight fragments of the Triforce in order to rescue Princess Zelda from the antagonist Ganon.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png"
+   "IMG_LINK": "./images/NES_LOZ.jpg"
  },
  {
    "ID": "NES_5",
@@ -43,7 +43,7 @@
    "PRICE": "$40",
    "RATING": 86,
    "PRODUCT_DESC": "Punch-Out!! features Little Mac, a young boxer fighting his way up through ranks of the World Video Boxing Association.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/3/3d/Punch-out_mrdream_boxart.PNG"
+   "IMG_LINK": "./images/NES_PunchOut"
  },
  {
    "ID": "NES_6",
@@ -52,7 +52,7 @@
    "PRICE": "$25",
    "RATING": 58,
    "PRODUCT_DESC": "Metroid is an action-adventure game in which the player controls Samus Aran as she travels through caverns and hunts Space Pirates.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/5/5d/Metroid_boxart.jpg"
+   "IMG_LINK": "./images/NES_Metriod"
  }
 ],
 "SNES" : [
@@ -63,7 +63,7 @@
    "PRICE": "$25",
    "RATING": 92,
    "PRODUCT_DESC": "Super Mario World, known as Super Mario World: Super Mario Bros. 4 is a platform video game developed and published by Nintendo for the Super Nintendo Entertainment System (SNES).",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png"
+   "IMG_LINK": "./images/SNES_SuperMarioWorld.jpg"
  },
  {
    "ID": "SNES_2",
@@ -72,7 +72,7 @@
    "PRICE": "$70",
    "RATING": 82,
    "PRODUCT_DESC": "EarthBound chronicles the adventures of Ness, a 13-year-old boy who journeys around the world using his \"PK\" or \"PSI\" to collect eight melodies in order to save the future from an alien of pure evil, intending to sentence all of reality to the horror of eternal darkness.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/1/1f/EarthBound_Box.jpg"
+   "IMG_LINK": "./images/SNES_EarthBound.jpg"
  },
  {
    "ID": "SNES_3",
@@ -81,7 +81,7 @@
    "PRICE": "$60",
    "RATING": 75,
    "PRODUCT_DESC": "Following his failure to defeat Liu Kang in the previous Mortal Kombat tournament, the evil Shang Tsung begs his master Shao Kahn, supreme ruler of Outworld and the surrounding kingdoms, to spare his life. He tells Shao Kahn that if they hold the next Mortal Kombat Tournament in Outworld, the Earthrealm warriors must travel away from home to attend.",
-   "IMG_LINK": "https://i.etsystatic.com/25689291/r/il/cacc70/3851653439/il_570xN.3851653439_emv9.jpg "
+   "IMG_LINK": "./images/SNES_MortalKombatII"
  },
  {
    "ID": "SNES_4",
@@ -90,7 +90,7 @@
    "PRICE": "$60",
    "RATING": 80,
    "PRODUCT_DESC": "The first game in the Star Fox series, the story follows Fox McCloud and the rest of the Star Fox team defending their homeworld of Corneria against the invading forces of Andross.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/5/52/Star_Fox_SNES.jpg"
+   "IMG_LINK": "./images/SNES_StarFox"
  },
  {
    "ID": "SNES_5",
@@ -99,7 +99,7 @@
    "PRICE": "$60",
    "RATING": 84,
    "PRODUCT_DESC": "It is a reboot of Nintendo's Donkey Kong franchise and follows the gorilla Donkey Kong and his nephew Diddy Kong as they set out to recover their stolen banana hoard from the crocodile King K.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/1/1a/Donkey_Kong_Country_SNES_cover.pngy"
+   "IMG_LINK": "./images/SNES_DonkeyKongCountry"
  },
  {
    "ID": "SNES_6",
@@ -108,7 +108,7 @@
    "PRICE": "$60",
    "RATING": 79,
    "PRODUCT_DESC": "Yoshi's Island is a 1995 platform game developed and published by Nintendo for the Super Nintendo Entertainment System (SNES). The player controls Yoshi, a friendly dinosaur, on a quest to reunite baby Mario with his brother Luigi, who has been kidnapped by Kamek.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/9/9a/Yoshi%27s_Island_%28Super_Mario_World_2%29_box_art.jpg"
+   "IMG_LINK": "./images/SNES_Yoshi'sIsland"
  }
 ],
 "N64" : [
@@ -119,7 +119,7 @@
    "PRICE": "$60",
    "RATING": 92,
    "PRODUCT_DESC": "Super Mario 64 is a 3D platformer in which the player controls Mario through various courses. Mario's abilities are far more diverse than in previous games. He can walk, run, jump, crouch, crawl, climb, swim, kick, grab objects, and punch using the game controller's analog stick and buttons.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/6/6a/Super_Mario_64_box_cover.jpg"
+   "IMG_LINK": "./images/N64_SuperMario64"
  },
  {
    "ID": "N64_2",
@@ -128,7 +128,7 @@
    "PRICE": "$60",
    "RATING": 90,
    "PRODUCT_DESC": "Super Smash Brospits Nintendo's biggest stars against each other in an all-out slugfest. Delivering fast-paced fighting action which is easy to learn and tough to master, this game features new moves, never-before seen battle arenas, and a fresh arsenal of special items.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/4/42/Supersmashbox.jpg"
+   "IMG_LINK": "./images/SuperSmashBros"
  },
  {
    "ID": "N64_3",
@@ -137,7 +137,7 @@
    "PRICE": "$60",
    "RATING": 87,
    "PRODUCT_DESC": "Pokémon Stadium gives trainers an arena to engage in heated Pokémon battles, and offers them a ringside seat for the action.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/7/70/Pokemonstadiumbox.jpg"
+   "IMG_LINK": "./images/N64_PKMNStadium"
  },
  {
    "ID": "N64_4",
@@ -146,7 +146,7 @@
    "PRICE": "$60",
    "RATING": 88,
    "PRODUCT_DESC": "The Legend of Zelda: Ocarina of Time is a fantasy action-adventure game set in an expansive environment. The player controls series protagonist Link from a third-person perspective in a three-dimensional world.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg"
+   "IMG_LINK": "./images/N64_LOZOcerinaOfTime"
  },
  {
    "ID": "N64_5",
@@ -155,7 +155,7 @@
    "PRICE": "$60",
    "RATING": 78,
    "PRODUCT_DESC": "GoldenEye 007 is a first-person shooter where the player takes the role of Secret Intelligence Service agent James Bond through a series of levels. In each level, the player must complete a set of objectives while computer-controlled opponents try to hinder the player's progress.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/3/36/GoldenEye007box.jpg"
+   "IMG_LINK": "./images/N64_GoldenEye007"
  },
  {
    "ID": "N64_6",
@@ -164,7 +164,7 @@
    "PRICE": "$60",
    "RATING": 77,
    "PRODUCT_DESC": "Mario Party is a party video game series featuring characters from the Mario franchise in which up to four local players or computer-controlled characters (called \"CPUs\") compete in a board game interspersed with minigames.",
-   "IMG_LINK": "https://mario.wiki.gallery/images/thumb/1/1f/MP1_Cover.png/1200px-MP1_Cover.png"
+   "IMG_LINK": "./images/N64_MarioParty"
  }
 ],
 "GC" : [
@@ -175,7 +175,7 @@
    "PRICE": "$60",
    "RATING": 92,
    "PRODUCT_DESC": "Super Smash Bros. Melee is a more simplistic fighting game that features characters from Nintendo video game franchises such as Mario, The Legend of Zelda, Star Fox and Pokémon, and Donkey Kong among other",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png"
+   "IMG_LINK": "./images/GC_SuperSmashBrosMelee"
  },
  {
    "ID": "GC_2",
@@ -184,7 +184,7 @@
    "PRICE": "$60",
    "RATING": 96,
    "PRODUCT_DESC": "The player controls series protagonist Link as he attempts to save his sister from the sorcerer Ganondorf and becomes embroiled in a struggle for the Triforce. Travel the flooded world of Hyrule as you travel by boat from island to island and stop evil. ",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg"
+   "IMG_LINK": "./images/GC_LOZWindWaker"
  },
  {
    "ID": "GC_3",
@@ -193,7 +193,7 @@
    "PRICE": "$60",
    "RATING": 87,
    "PRODUCT_DESC": "In Super Monkey Ball the objective of the main game is to guide one of four playable monkeys  encased in a transparent ball across a suspended series of platforms and through a goal.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/9/96/Super_Monkey_Ball_Coverart.png"
+   "IMG_LINK": "./images/GC_SuperMonkeyBall"
  },
  {
    "ID": "GC_4",
@@ -202,7 +202,7 @@
    "PRICE": "$60",
    "RATING": 96,
    "PRODUCT_DESC": "Players control special agent Leon S. Kennedy who is on a mission to rescue the US president's daughter, Ashley Graham, who has been kidnapped by a cult in rural Spain.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/d/d9/Resi4-gc-cover.jpg"
+   "IMG_LINK": "./images/GC_ResidentEvil4"
  },
  {
    "ID": "GC_5",
@@ -211,7 +211,7 @@
    "PRICE": "$60",
    "RATING": 97,
    "PRODUCT_DESC": "Players control the bounty hunter Samus Aran as she battles the Space Pirates and their biological experiments on the planet Tallon IV.  You control Samus from a first-person view unlike previous games in the series.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg"
+   "IMG_LINK":"./images/GC_MetroidPrime"
  },
  {
    "ID": "GC_6",
@@ -220,7 +220,7 @@
    "PRICE": "$60",
    "RATING": 87,
    "PRODUCT_DESC": "Double Dash is a kart racing video game in which the player races in a kart against other teams in different courses. This is the only game in the series in which instead of one character per kart, there are two: one to drive, and one to use items.",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/7/78/Mario_Kart_Double_Dash.jpg"
+   "IMG_LINK": "./images/GC_MarioKartDoubleDash"
  }
 ],
 "WII" : [
@@ -231,7 +231,7 @@
    "PRICE": "$60",
    "RATING": 82,
    "PRODUCT_DESC": "Mario Kart Wii incorporates playable characters from the Mario series, who participate in races on 32 different race tracks using specialized items to hinder opponents or gain advantages.Mario Kart Wii uses the Wii Remote's motion-controls to provide intuitive and conventional steering controls.",
-   "IMG_LINK": "https://th.bing.com/th/id/OIP.YCiWJE0gqdCNOJgLr7FpqwHaKY?pid=ImgDet&rs=1"
+   "IMG_LINK": "./images/WII_MarioKartWii"
  },
  {
    "ID": "WII_2",
@@ -240,7 +240,7 @@
    "PRICE": "$60",
    "RATING": 76,
    "PRODUCT_DESC": "Wii Sports is a 2006 sports simulation video game developed and published by Nintendo for the Wii video game console.You can play Tennis, Baseball,  Boxing, Golf, and  Bowling using  motion controls. ",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/e/e0/Wii_Sports_Europe.jpg"
+   "IMG_LINK": "./images/WII_WiiSports"
  },
  {
    "ID": "WII_3",
@@ -249,7 +249,7 @@
    "PRICE": "$60",
    "RATING": 58,
    "PRODUCT_DESC": "Wii Play features 9 minigames that use special features of the Wii Remote. Includes a tank game, a shooting game in the spirt of duck hunt, fishing, ping pong, and billiards.  ",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/9/9f/Wii_Play_Europe.jpg"
+   "IMG_LINK": "./images/WII_WiiPlay"
  },
  {
    "ID": "WII_4",
@@ -258,7 +258,7 @@
    "PRICE": "$60",
    "RATING": 97,
    "PRODUCT_DESC": "Super Mario Galaxy is set in outer space, where Mario travels through different galaxies to collect Power Stars. Galaxies consist of planitoids that have their own gravity, allowing Mario to walk  on walls, upside down, and jump  between gravitational forces. ",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/7/76/SuperMarioGalaxy.jpg"
+   "IMG_LINK": "./images/WII_SuperMarioGalaxy"
  },
  {
    "ID": "WII_5",
@@ -267,7 +267,7 @@
    "PRICE": "$60",
    "RATING": 93,
    "PRODUCT_DESC": "Super Smash Bros. Brawl is a more simplistic fighting game that features characters from Nintendo video game franchises. It has a larger roster of characters than its predecessor and contains some third party characters. ",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/f/f3/SSBB_Cover.jpg"
+   "IMG_LINK": "./images/WII_SuperSmashBrosBrawl"
  },
  {
    "ID": "WII_6",
@@ -276,7 +276,7 @@
    "PRICE": "$60",
    "RATING": 81,
    "PRODUCT_DESC": "The player controls series protagonist Link as he travels from floating islands in the sky to overworlds and dungeons in the land below. Link must stop the resurection of  the demon lord Demise. Link is controlled using the Wii Remote and Nunchuck and  requires  the Wii MotionPlus extention. ",
-   "IMG_LINK": "https://upload.wikimedia.org/wikipedia/en/9/99/Legend_of_Zelda_Skyward_Sword_boxart.png"
+   "IMG_LINK": "./images/WII_LOZSkywardSword"
  }
 ],
 "GB" : [
