@@ -103,7 +103,7 @@ function appendData(data) {
     for (let x of mainContainer) {
         if (x.id == "0") {
             
-            x.innerHTML = `<h3>${data[system][0]["PRODUCT_NAME"]}</h3> <br> ${data[system][0]["PRODUCT_DESC"]} <br> Price: ${data[system][0]["PRICE"]} <br> Rating: ${data[system][0]["RATING"]}%`;
+            x.innerHTML = `<h3>${data[system][0]["PRODUCT_NAME"]}</h3> <br><img src="${data[system][0]["IMG_LINK"]}"> <br> ${data[system][0]["PRODUCT_DESC"]} <br> Price: ${data[system][0]["PRICE"]} <br> Rating: ${data[system][0]["RATING"]}%`;
             
         }
         else if (x.id == "1") {
