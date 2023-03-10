@@ -79,35 +79,35 @@
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
 
-    <header>
+  <header>
 
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./myotherimages/logo.png" height="90px" width="200px"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="catalog.html">Catalog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./myotherimages/logo.png" height="90px" width="200px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="catalog.html">Catalog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
 
   <main class="d-flex flex-nowrap">
@@ -116,23 +116,23 @@
     <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px;">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
 
-        <span class="fs-4">Sidebar</span>
+        <br> <br> <br><br>
       </a>
       <hr>
       <ul class="nav nav-pills flex-column mb-auto">
-        <li class="nav-item">
+        <li class="nav-item" >
           <a href="./index.html" class="nav-link active" aria-current="page">
 
             Home
           </a>
         </li>
-        <li onclick="setFunction(0)">
+        <li id="NES">
           <a href="./catalog.html" class="nav-link text-white">
 
             NES
           </a>
         </li>
-        <li>
+        <li id="SNES">
           <a href="#" class="nav-link text-white">
 
             SNES
@@ -187,12 +187,11 @@
 
     <script type="text/javascript">
 
+
+
+
       var system = "WII";
 
-      function setSystem(s) {
-        if(s==0)
-          system = "NES";
-      }
 
       fetch('data.json')
         .then(function (response) {
@@ -207,9 +206,15 @@
 
 
 
+      document.getElementById("NES").addEventListener("click", setSystem("NES"));
+      document.getElementById("SNES").addEventListener("click", setSystem("SNES"));
 
+      function setSystem(name) {
+        system = name;
+      }
 
       function appendData(data) {
+
         let mainContainer = document.getElementsByTagName("p");
         for (let x of mainContainer) {
           if (x.id == "0") {
@@ -248,12 +253,15 @@
         }
       }
 
+
     </script>
 
 
 
     <div class="b-example-divider b-example-vr"></div>
+
     <div class="album py-5 bg-light">
+      <br> <br> <br> <br>
       <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <div class="col">
