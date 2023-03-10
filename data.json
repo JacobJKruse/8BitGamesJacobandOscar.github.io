@@ -417,7 +417,11 @@
    "PRICE": "$40",
    "RATING": 83,
    "PRODUCT_DESC": "Pokémon Platnium Version is a role-playing game developed by Game Freak where the player travels the fictional world of Shino catching, trading, and  battling mosters called Pokémon. Your goal is to catch every Pokémon, defeat the evil Team Galactic, and become the Pokémon Champion by beating Gym Leaders and the Elite Four in  Pokémon battles. ",
+<<<<<<< HEAD
    "IMG_LINK": "./images/DS_PMKN_PLATNIUM.png"
+=======
+   "IMG_LINK": "./images/DS_PMKNPlATNIUM.png"
+>>>>>>> 86862c48b461db18b4b31f319dc3db18fa4a08be
  },
  {
    "ID": "DS_4",
@@ -435,7 +439,11 @@
    "PRICE": "$40",
    "RATING": 54,
    "PRODUCT_DESC": "in Pokémon Myster Dungeon: Explorers of Sky you play as a human who has been turned into a Pokémon and has lost their  memory. Help Pokemon in need, explore new areas, and uncover secrets  as you quest to retreive your memories. ",
+<<<<<<< HEAD
    "IMG_LINK": ""
+=======
+   "IMG_LINK": "./images/DS_PKMN_EOS.jpg"
+>>>>>>> 86862c48b461db18b4b31f319dc3db18fa4a08be
  },
  {
    "ID": "DS_6",
