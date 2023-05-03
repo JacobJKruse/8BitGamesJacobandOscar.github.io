@@ -1,6 +1,7 @@
 {
 "NES" : [
  {
+  "_id": 1,
    "ID": "NES_1",
    "PRODUCT_NAME": "Duck Hunt",
    "PRODUCT_RELEASE_DATE": 1994,
@@ -10,6 +11,7 @@
    "IMG_LINK": "./images/NES_DuckHunt.jpg"
  },
  {
+  "_id": 2,
    "ID": "NES_2",
    "PRODUCT_NAME": "Super Mario  Bros",
    "PRODUCT_RELEASE_DATE": 1985,
@@ -19,6 +21,7 @@
    "IMG_LINK": "./images/NES_MARIO.png"
  },
  {
+  "_id": 3,
    "ID": "NES_3",
    "PRODUCT_NAME": "Tetris",
    "PRODUCT_RELEASE_DATE": 1989,
@@ -28,6 +31,7 @@
    "IMG_LINK": "./images/NES_TETRIS.jpg"
  },
  {
+  "_id": 4,
    "ID": "NES_4",
    "PRODUCT_NAME": "The Legend of Zelda",
    "PRODUCT_RELEASE_DATE": 1987,
@@ -37,6 +41,7 @@
    "IMG_LINK": "./images/NES_LOZ.png"
  },
  {
+  "_id": 5,
    "ID": "NES_5",
    "PRODUCT_NAME": "Punch-Out!!",
    "PRODUCT_RELEASE_DATE": 1987,
@@ -46,6 +51,7 @@
    "IMG_LINK": "./images/NES_PUNCHOUT.PNG"
  },
  {
+  "_id": 6,
    "ID": "NES_6",
    "PRODUCT_NAME": "Metroid",
    "PRODUCT_RELEASE_DATE": 1987,
@@ -57,6 +63,7 @@
 ],
 "SNES" : [
  {
+  "_id": 7,
    "ID": "SNES_1",
    "PRODUCT_NAME": "Super Mario World",
    "PRODUCT_RELEASE_DATE": 1991,
@@ -66,6 +73,7 @@
    "IMG_LINK": "./images/SNES_SUPERMARIOWORLD.png"
  },
  {
+  "_id": 8,
    "ID": "SNES_2",
    "PRODUCT_NAME": "EarthBound",
    "PRODUCT_RELEASE_DATE": 1994,
@@ -75,6 +83,7 @@
    "IMG_LINK": "./images/SNES_EarthBound.jpg"
  },
  {
+  "_id": 9,
    "ID": "SNES_3",
    "PRODUCT_NAME": "Mortal Kombat II",
    "PRODUCT_RELEASE_DATE": 1993,
@@ -84,6 +93,7 @@
    "IMG_LINK": "./images/SNES_MKII.webp"
  },
  {
+  "_id": 10,
    "ID": "SNES_4",
    "PRODUCT_NAME": "Star Fox",
    "PRODUCT_RELEASE_DATE": 1993,
@@ -93,6 +103,7 @@
    "IMG_LINK": "./images/SNES_STARFOX.jpg"
  },
  {
+  "_id": 11,
    "ID": "SNES_5",
    "PRODUCT_NAME": "Donky Kong Country",
    "PRODUCT_RELEASE_DATE": 1994,
@@ -102,6 +113,7 @@
    "IMG_LINK": "./images/SNES_DonkeyKongCountry.png"
  },
  {
+  "_id": 12,
    "ID": "SNES_6",
    "PRODUCT_NAME": "Super Mario World 2 Yoshi's Island",
    "PRODUCT_RELEASE_DATE": 1995,
@@ -113,6 +125,7 @@
 ],
 "N64" : [
  {
+  "_id": 13,
    "ID": "N64_1",
    "PRODUCT_NAME": "Super Mario 64",
    "PRODUCT_RELEASE_DATE": 1996,
@@ -122,6 +135,7 @@
    "IMG_LINK": "./images/N64_SUPERMARIO64.jpg"
  },
  {
+  "_id": 14,
    "ID": "N64_2",
    "PRODUCT_NAME": "Super Smash Bros.",
    "PRODUCT_RELEASE_DATE": 1999,
@@ -131,6 +145,7 @@
    "IMG_LINK": "./images/N64_SSB.jpg"
  },
  {
+  "_id": 15,
    "ID": "N64_3",
    "PRODUCT_NAME": "Pokémon Stadium",
    "PRODUCT_RELEASE_DATE": 1999,
@@ -140,6 +155,7 @@
    "IMG_LINK": "./images/N64_PKMN_STADIUM.jpg"
  },
  {
+  "_id": 16,
    "ID": "N64_4",
    "PRODUCT_NAME": "The Legend of Zelda: Ocarina of Time",
    "PRODUCT_RELEASE_DATE": 1998,
@@ -149,6 +165,7 @@
    "IMG_LINK": "./images/N64_LOZ_OOT.jpg"
  },
  {
+  "_id": 17,
    "ID": "N64_5",
    "PRODUCT_NAME": "GoldenEye 007",
    "PRODUCT_RELEASE_DATE": 1999,
@@ -158,6 +175,7 @@
    "IMG_LINK": "./images/N64_GoldenEye.jpg"
  },
  {
+  "_id": 18,
    "ID": "N64_6",
    "PRODUCT_NAME": "Mario Party",
    "PRODUCT_RELEASE_DATE": 1998,
@@ -169,6 +187,7 @@
 ],
 "GC" : [
  {
+  "_id": 19,
    "ID": "GC_1",
    "PRODUCT_NAME": "Super Smash Bros. Melee",
    "PRODUCT_RELEASE_DATE": 2001,
@@ -178,6 +197,7 @@
    "IMG_LINK": "./images/GC_SSBM.png"
  },
  {
+  "_id": 20,
    "ID": "GC_2",
    "PRODUCT_NAME": "The Legend of  Zelda: The Wind Waker",
    "PRODUCT_RELEASE_DATE": 2002,
@@ -187,6 +207,7 @@
    "IMG_LINK": "./images/GC_LOZ_TWW.jpg"
  },
  {
+  "_id": 21,
    "ID": "GC_3",
    "PRODUCT_NAME": "Super Monkey Ball",
    "PRODUCT_RELEASE_DATE": 2002,
@@ -196,6 +217,7 @@
    "IMG_LINK": "./images/GC_SUPER_MONKEY_BALL.png"
  },
  {
+  "_id": 22,
    "ID": "GC_4",
    "PRODUCT_NAME": "Resident Evil 4",
    "PRODUCT_RELEASE_DATE": 2005,
@@ -205,6 +227,7 @@
    "IMG_LINK": "./images/GC_RESIDENT_EVIL_4.jpg"
  },
  {
+  "_id": 23,
    "ID": "GC_5",
    "PRODUCT_NAME": "Metroid Prime",
    "PRODUCT_RELEASE_DATE": 2002,
@@ -214,6 +237,7 @@
    "IMG_LINK":"./images/GC_METROID_PRIME.jpg"
  },
  {
+  "_id": 24,
    "ID": "GC_6",
    "PRODUCT_NAME": "Mario Kart: Double Dash",
    "PRODUCT_RELEASE_DATE": 2003,
@@ -225,6 +249,7 @@
 ],
 "WII" : [
  {
+  "_id": 25,
    "ID": "WII_1",
    "PRODUCT_NAME": "Mario Kart Wii",
    "PRODUCT_RELEASE_DATE": 2008,
@@ -234,6 +259,7 @@
    "IMG_LINK": "./images/WII_MK_WII.jpg"
  },
  {
+  "_id": 26,
    "ID": "WII_2",
    "PRODUCT_NAME": "Wii Sports",
    "PRODUCT_RELEASE_DATE": 2006,
@@ -243,6 +269,7 @@
    "IMG_LINK": "./images/WII_WIISPORTS.jpg"
  },
  {
+  "_id": 27,
    "ID": "WII_3",
    "PRODUCT_NAME": "Wii Play ",
    "PRODUCT_RELEASE_DATE": 2007,
@@ -252,6 +279,7 @@
    "IMG_LINK": "./images/WII_WIIPLAY.jpg"
  },
  {
+  "_id": 28,
    "ID": "WII_4",
    "PRODUCT_NAME": "Super Mario Galaxy",
    "PRODUCT_RELEASE_DATE": 2007,
@@ -261,6 +289,7 @@
    "IMG_LINK": "./images/WII_SMG.jpg"
  },
  {
+  "_id": 29,
    "ID": "WII_5",
    "PRODUCT_NAME": "Super Smash Bros. Brawl",
    "PRODUCT_RELEASE_DATE": 2008,
@@ -270,6 +299,7 @@
    "IMG_LINK": "./images/WII_SSBB.jpg"
  },
  {
+  "_id": 30,
    "ID": "WII_6",
    "PRODUCT_NAME": "The Legend of Zelda: Skyward Sword",
    "PRODUCT_RELEASE_DATE": 2011,
@@ -281,6 +311,7 @@
 ],
 "GB" : [
  {
+  "_id": 31,
    "ID": "GB_1",
    "PRODUCT_NAME": "Pokémon Red Version",
    "PRODUCT_RELEASE_DATE": 1996,
@@ -290,6 +321,7 @@
    "IMG_LINK": "./images/GB_PKMN_Red.jpg"
  },
  {
+  "_id": 32,
    "ID": "GB_2",
    "PRODUCT_NAME": "Wario Land II",
    "PRODUCT_RELEASE_DATE": 1998,
@@ -299,6 +331,7 @@
    "IMG_LINK": "./images/GB_Warioland2.jpg"
  },
  {
+  "_id": 33,
    "ID": "GB_3",
    "PRODUCT_NAME": "Kirby's Dream Land",
    "PRODUCT_RELEASE_DATE": 1992,
@@ -308,6 +341,7 @@
    "IMG_LINK": "./images/GB_Kirby_DL.jpg"
  },
  {
+  "_id": 34,
    "ID": "GB_4",
    "PRODUCT_NAME": "The Legend of Zelda: Link's Awakening",
    "PRODUCT_RELEASE_DATE": 1993,
@@ -317,6 +351,7 @@
    "IMG_LINK": "./images/GB_LOZ_LA.png"
  },
  {
+  "_id": 35,
    "ID": "GB_5",
    "PRODUCT_NAME": "Super Mario Land 2",
    "PRODUCT_RELEASE_DATE": 1992,
@@ -326,6 +361,7 @@
    "IMG_LINK": "./images/GB_SML.jpg"
  },
  {
+  "_id": 36,
    "ID": "GB_6",
    "PRODUCT_NAME": "Donkey Kong",
    "PRODUCT_RELEASE_DATE": 1994,
@@ -337,6 +373,7 @@
 ],
 "GBA" : [
  {
+  "_id": 37,
    "ID": "GBA_1",
    "PRODUCT_NAME": "Mario & Luigi: Superstar Saga",
    "PRODUCT_RELEASE_DATE": 2003,
@@ -346,6 +383,7 @@
    "IMG_LINK": "./images/GBA_ML_SS.jpg"
  },
  {
+  "_id": 38,
    "ID": "GBA_2",
    "PRODUCT_NAME": "Pokemon Ruby and Sapphire",
    "PRODUCT_RELEASE_DATE": 2002,
@@ -355,6 +393,7 @@
    "IMG_LINK": "./images/GBA_PKMN_RS.jpg"
  },
  {
+  "_id": 39,
    "ID": "GBA_3",
    "PRODUCT_NAME": "The Legend of Zelda: The Minish Cap",
    "PRODUCT_RELEASE_DATE": 2004,
@@ -364,6 +403,7 @@
    "IMG_LINK": "./images/GBA_LOZ_TMC.JPG"
  },
  {
+  "_id": 40,
    "ID": "GBA_4",
    "PRODUCT_NAME": "Metroid Fusion",
    "PRODUCT_RELEASE_DATE": 2002,
@@ -373,6 +413,7 @@
    "IMG_LINK": "./images/GBA_METROID_FUSION.jpg"
  },
  {
+  "_id": 41,
    "ID": "GBA_5",
    "PRODUCT_NAME": "Mario Kart: Supper Circut",
    "PRODUCT_RELEASE_DATE": 2001,
@@ -382,6 +423,7 @@
    "IMG_LINK": "./images/GBA_MK_SC.jpg"
  },
  {
+  "_id": 42,
    "ID": "GBA_6",
    "PRODUCT_NAME": "Sonic Advance",
    "PRODUCT_RELEASE_DATE": 2001,
@@ -393,6 +435,7 @@
 ],
 "DS" : [
  {
+  "_id": 43,
    "ID": "DS_1",
    "PRODUCT_NAME": "Mario Kart DS",
    "PRODUCT_RELEASE_DATE": 2005,
@@ -402,6 +445,7 @@
    "IMG_LINK": "./images/DS_MK_DS.jpg"
  },
  {
+  "_id": 44,
    "ID": "DS_2",
    "PRODUCT_NAME": "Mario & Luigi: Bowser's Inside Story",
    "PRODUCT_RELEASE_DATE": 2009,
@@ -411,6 +455,7 @@
    "IMG_LINK": "./images/DS_ML_BIS.PNG"
  },
  {
+  "_id": 45,
    "ID": "DS_3",
    "PRODUCT_NAME": "Pokémon Platnium Version",
    "PRODUCT_RELEASE_DATE": 2008,
@@ -420,6 +465,7 @@
    "IMG_LINK": "./images/DS_PMKN_PLATNIUM.png"
  },
  {
+  "_id": 46,
    "ID": "DS_4",
    "PRODUCT_NAME": "Chrono Trigger",
    "PRODUCT_RELEASE_DATE": 2008,
@@ -429,6 +475,7 @@
    "IMG_LINK": "./images/DS_CT.jpg"
  },
  {
+  "_id": 47,
    "ID": "DS_5",
    "PRODUCT_NAME": "Pokémon Myster Dungeon: Explorers of Sky",
    "PRODUCT_RELEASE_DATE": 2009,
@@ -438,6 +485,7 @@
    "IMG_LINK": "./images/DS_PKMN_EOS.jpg"
  },
  {
+  "_id": 48,
    "ID": "DS_6",
    "PRODUCT_NAME": "Grand Theft  Auto: Chinatown Wars",
    "PRODUCT_RELEASE_DATE": 2009,
@@ -449,6 +497,7 @@
 ],
 "3DS" : [
  {
+  "_id": 49,
    "ID": "3DS_1",
    "PRODUCT_NAME": "Animal Crossing: New Leaf",
    "PRODUCT_RELEASE_DATE": 2011,
@@ -458,6 +507,7 @@
    "IMG_LINK": "./images/3DS_AC_NF.jpg"
  },
  {
+  "_id": 50,
    "ID": "3DS_2",
    "PRODUCT_NAME": "Super Mario 3D Land",
    "PRODUCT_RELEASE_DATE": 2012,
@@ -467,6 +517,7 @@
    "IMG_LINK": "./images/3DS_SM3DL.jpg"
  },
  {
+  "_id": 51,
    "ID": "3DS_3",
    "PRODUCT_NAME": "Luigi's Mansion: Dark Moon",
    "PRODUCT_RELEASE_DATE": 2013,
@@ -476,6 +527,7 @@
    "IMG_LINK": "./images/3DS_LM_DM.png"
  },
  {
+  "_id": 52,
    "ID": "3DS_4",
    "PRODUCT_NAME": "Pokémon X and Y",
    "PRODUCT_RELEASE_DATE": 2013,
@@ -485,6 +537,7 @@
    "IMG_LINK": "./images/3DS_PKMN_XY.jpg"
  },
  {
+  "_id": 53,
    "ID": "3DS_5",
    "PRODUCT_NAME": "Metroid: Samus Returns",
    "PRODUCT_RELEASE_DATE": 2017,
@@ -494,6 +547,7 @@
    "IMG_LINK": "./images/3DS_METROID_SR.jpg"
  },
  {
+  "_id": 54,
    "ID": "3DS_6",
    "PRODUCT_NAME": "Mario Kart 7",
    "PRODUCT_RELEASE_DATE": 2011,
